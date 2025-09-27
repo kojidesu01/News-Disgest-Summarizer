@@ -1,6 +1,5 @@
 
-# News-Disgest-Summarizer
-=======
+
 # News Disgest Summarizer
 
 โปรแกรม **News Disgest Summarizer** เป็นโปรแกรมรันบน Command Line สำหรับรวบรวมข่าว และสรุปข่าว
