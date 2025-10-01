@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-url = f"https://newsdata.io/api/1/sources?apikey=pub_2faf079e890947eda13836e421edb044"
+url = f"https://newsdata.io/api/1/latest?apikey=pub_2faf079e890947eda13836e421edb044&q=nepal"
 
 response = requests.get(url)
 data = response.json()
@@ -32,6 +32,6 @@ if data.get("status") == "success":
 
     # เขียนกลับลงไฟล์
 
-    with open("News3.json", "w", encoding="utf-8") as f:
+    with open("News1.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 

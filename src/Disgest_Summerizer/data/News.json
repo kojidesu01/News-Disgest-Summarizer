@@ -1,2262 +1,396 @@
 {
   "status": "success",
-  "totalResults": 100,
+  "totalResults": 1406,
   "results": [
     {
-      "id": "pctablet",
-      "name": "Pc-Tablet",
-      "url": "https://pc-tablet.com",
-      "icon": "https://n.bytvi.com/pctablet.jpg",
-      "priority": 715985,
-      "description": "Latest Tech News &amp; Product Reviews | PC-Tablet.",
-      "category": [
-        "entertainment",
-        "technology",
-        "business",
-        "top",
-        "other"
+      "article_id": "3d3ed887bfbd88ff306565da67490e5f",
+      "title": "Aitken Spence Travels South Asia’s Best",
+      "link": "http://island.lk/aitken-spence-travels-south-asias-best/",
+      "keywords": [
+        "business"
       ],
-      "language": [
-        "english"
+      "creator": [
+        "Sahan Weerasooriya"
       ],
+      "description": "Aitken Spence Travels once again demonstrated its industry leadership by winning South Asia’s Best Inbound Travel Agent and Best Cruise Travel Agent for the third consecutive year at the 9th annual South Asian Travel Awards (SATA), held recently at a glittering gala in Colombo, Sri Lanka. In addition, SATA honoured the late Chairman, Deshamanya D.H. [...]",
+      "content": "ONLY AVAILABLE IN PAID PLANS",
+      "pubDate": "2025-09-30 23:54:39",
+      "pubDateTZ": "UTC",
+      "image_url": "http://island.lk/wp-content/uploads/2025/09/SATA2025-77a.webp",
+      "video_url": null,
+      "source_id": "island",
+      "source_name": "The Island",
+      "source_priority": 116920,
+      "source_url": "https://island.lk",
+      "source_icon": "https://n.bytvi.com/island.jpg",
+      "language": "english",
       "country": [
-        "united states of america"
+        "sri lanka"
       ],
-      "total_article": 2413,
-      "last_fetch": "2025-09-29 20:20:38"
-    },
-    {
-      "id": "wsj_cn",
-      "name": "华尔街日报中",
-      "url": "https://cn.wsj.com",
-      "icon": "https://n.bytvi.com/wsj_cn.png",
-      "priority": 312,
-      "description": "华尔街日报中文网实时报道美国，中国，亚洲，欧洲乃至全球的突发新闻，商业，经济，金融，财经，国际新闻。同时提供高质量的商业分析，深度报道，专栏，图片，视频。",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "chinese"
-      ],
-      "country": [
-        "china"
-      ],
-      "total_article": 5943,
-      "last_fetch": "2025-10-01 07:45:19"
-    },
-    {
-      "id": "theregister",
-      "name": "The Register",
-      "url": "https://www.theregister.com",
-      "icon": "https://n.bytvi.com/theregister.png",
-      "priority": 27110,
-      "description": "Enterprise technology news for IT decision-makers and professionals",
-      "category": [
-        "science",
-        "technology"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "nigeria"
-      ],
-      "total_article": 24093,
-      "last_fetch": "2025-10-01 11:37:18"
-    },
-    {
-      "id": "adelaidenow_au",
-      "name": "The Advertiser",
-      "url": "https://www.adelaidenow.com.au",
-      "icon": "https://n.bytvi.com/adelaidenow_au.png",
-      "priority": 25109,
-      "description": "The latest Adelaide, South Australia news: AFL, weather, sport, crime, business, entertainment and more.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "australia"
-      ],
-      "total_article": 585,
-      "last_fetch": "2025-10-01 09:08:40"
-    },
-    {
-      "id": "stol",
-      "name": "Südtirol Online",
-      "url": "https://www.stol.it",
-      "icon": "https://n.bytvi.com/stol.png",
-      "priority": 51462,
-      "description": "stol.it ist das Online Nachrichten Portal in Südtirol für aktuelle und schnelle News aus der Provinz Bozen, Italien und weltweit",
-      "category": [
-        "entertainment",
-        "technology",
-        "health",
-        "business",
-        "sports",
-        "top",
-        "politics"
-      ],
-      "language": [
-        "italian",
-        "german"
-      ],
-      "country": [
-        "italy",
-        "germany"
-      ],
-      "total_article": 26704,
-      "last_fetch": "2025-10-01 11:39:35"
-    },
-    {
-      "id": "eldesmarque",
-      "name": "ElDesmarque",
-      "url": "https://motor.eldesmarque.com",
-      "icon": "https://n.bytvi.com/eldesmarque.png",
-      "priority": 44851,
-      "description": "Noticias de las marcas de coches y la actualidad del motor",
       "category": [
         "business"
       ],
-      "language": [
-        "spanish"
-      ],
-      "country": [
-        "mexico"
-      ],
-      "total_article": 14439,
-      "last_fetch": "2025-10-01 11:39:15"
+      "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+      "ai_content": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "duplicate": true
     },
     {
-      "id": "csis",
-      "name": "CSIS",
-      "url": "https://www.csis.org",
-      "icon": "https://n.bytvi.com/csis.jpg",
-      "priority": 9109,
-      "description": "The Center for Strategic and International Studies (CSIS) is a bipartisan, nonprofit policy research organization &amp; think tank analyzing global issues &amp; policy.",
-      "category": [
-        "other"
+      "article_id": "2011669a83a46a75e73cbae318ab42ce",
+      "title": "47 Soal Agama Buddha Kelas 1 Kurikulum Merdeka 2025 Semester 1 Pilihan Ganda",
+      "link": "https://pontianak.tribunnews.com/pendidikan/1143737/47-soal-agama-buddha-kelas-1-kurikulum-merdeka-2025-semester-1-pilihan-ganda",
+      "keywords": [
+        "soal pilihan ganda agama buddha kelas 1",
+        "soal agama buddha kelas 1 kurikulum merdeka 2025",
+        "latihan soal agama buddha sd",
+        "soal agama buddha terbaru 2025",
+        "soal agama buddha semester 1"
       ],
-      "language": [
-        "english"
+      "creator": [
+        "Ridhoino Kristo Sebastianus Melano"
       ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 37540,
-      "last_fetch": null
-    },
-    {
-      "id": "venturesafrica",
-      "name": "Ventures Africa",
-      "url": "https://venturesafrica.com",
-      "icon": "https://n.bytvi.com/venturesafrica.png",
-      "priority": 2964452,
-      "description": "Ventures Africa - African Business, Financial & Economic News",
-      "category": [
-        "lifestyle",
-        "politics",
-        "top",
-        "technology",
-        "business"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "nigeria"
-      ],
-      "total_article": 477,
-      "last_fetch": null
-    },
-    {
-      "id": "vanhavadis",
-      "name": "Van Havadis Gazetesi",
-      "url": "https://www.vanhavadis.com",
-      "icon": "https://n.bytvi.com/vanhavadis.png",
-      "priority": 4043175,
-      "description": "Van Haber Ajansı ve Son Dakika Van Haberleri ile ilgili tüm gelişmeler Van Havadis Gazetesi. Yerel Van Haberleri ve güncel haberi takip edin.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "turkish"
-      ],
-      "country": [
-        "turkey"
-      ],
-      "total_article": 7878,
-      "last_fetch": "2025-10-01 08:58:39"
-    },
-    {
-      "id": "dohanews",
-      "name": "Doha News",
-      "url": "https://dohanews.co",
-      "icon": "https://n.bytvi.com/dohanews.png",
-      "priority": 360080,
-      "description": "Doha News has been covering breaking news, politics, business, culture and more in and around Qatar since 2009.",
-      "category": [
-        "entertainment",
-        "technology",
-        "business",
-        "tourism",
-        "sports",
-        "top",
-        "lifestyle",
-        "other",
-        "politics"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "qatar"
-      ],
-      "total_article": 2584,
-      "last_fetch": "2025-09-30 14:47:43"
-    },
-    {
-      "id": "peru21",
-      "name": "Perú 21",
-      "url": "https://peru21.pe",
-      "icon": "https://n.bytvi.com/peru21.png",
-      "priority": 34911,
-      "description": "Noticias del Perú y del mundo en peru21.pe - Ultimas noticias de política, deportes, espectáculos, fútbol, economía, mundo, tecnología, cultura, ciencia y más...",
-      "category": [
-        "crime",
-        "entertainment",
-        "world",
-        "technology",
-        "health",
-        "business",
-        "sports",
-        "top",
-        "lifestyle",
-        "food",
-        "politics"
-      ],
-      "language": [
-        "spanish"
-      ],
-      "country": [
-        "peru"
-      ],
-      "total_article": 66986,
-      "last_fetch": "2025-10-01 05:38:24"
-    },
-    {
-      "id": "lodicelagente",
-      "name": "Lo Dice la Gente Talara",
-      "url": "https://lodicelagente.com",
-      "icon": "https://n.bytvi.com/lodicelagente.jpg",
-      "priority": 6699126,
-      "description": "Bienvenidos al sitio oficial LO DICE LA GENTE - Talara. Infórmese siempre del acontecer en la provincia de Talara, el Perú y el Mundo. Lo Dice la Gente Talara.",
-      "category": [
-        "entertainment",
-        "world",
-        "health",
-        "technology",
-        "tourism",
-        "sports",
-        "top",
-        "other",
-        "science"
-      ],
-      "language": [
-        "spanish"
-      ],
-      "country": [
-        "peru"
-      ],
-      "total_article": 377,
-      "last_fetch": "2025-10-01 08:19:25"
-    },
-    {
-      "id": "profitline",
-      "name": "ProfitLine",
-      "url": "https://profitline.hu",
-      "icon": "https://n.bytvi.com/profitline.jpg",
-      "priority": 7811409,
-      "description": "Tőzsdei, makrogazdasági, árupiaci hírek itthonról és a nagyvilágból.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "hungarian"
-      ],
-      "country": [
-        "hungary"
-      ],
-      "total_article": 18952,
-      "last_fetch": "2025-10-01 11:28:17"
-    },
-    {
-      "id": "waxahachietx",
-      "name": "Home - Waxahachie Daily Light",
-      "url": "https://www.waxahachietx.com/#",
-      "icon": "https://n.bytvi.com/waxahachietx.png",
-      "priority": 331077,
-      "description": "Description not available",
-      "category": [
-        "education",
-        "business",
-        "sports",
-        "top",
-        "lifestyle",
-        "other",
-        "politics"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 1281,
-      "last_fetch": "2025-09-30 16:10:02"
-    },
-    {
-      "id": "tolonews",
-      "name": "TOLOnews",
-      "url": "https://tolonews.com",
-      "icon": "https://n.bytvi.com/tolonews.png",
-      "priority": 61736,
-      "description": "Get up-to-date information on what’s happening in Covid19, business, sports, government, arts, and culture, in the world and Afghanistan",
-      "category": [
-        "entertainment",
-        "world",
-        "health",
-        "business",
-        "sports",
-        "top",
-        "politics"
-      ],
-      "language": [
-        "persian",
-        "english"
-      ],
-      "country": [
-        "afghanistan"
-      ],
-      "total_article": 4752,
-      "last_fetch": "2025-09-30 18:23:19"
-    },
-    {
-      "id": "diarioeltiempo",
-      "name": "Diario El Tiempo",
-      "url": "https://diarioeltiempo.com.ve",
-      "icon": "https://n.bytvi.com/diarioeltiempo.png",
-      "priority": 2061535,
-      "description": "Diario El Tiempo &raquo; Feed de los comentarios",
-      "category": [
-        "entertainment",
-        "world",
-        "sports",
-        "top",
-        "other"
-      ],
-      "language": [
-        "spanish"
-      ],
-      "country": [
-        "venezuela"
-      ],
-      "total_article": 8188,
-      "last_fetch": "2025-10-01 11:25:50"
-    },
-    {
-      "id": "publicnews",
-      "name": "Public News",
-      "url": "https://publicnews.com",
-      "icon": "https://n.bytvi.com/publicnews.png",
-      "priority": 633592,
-      "description": "Public News keeps you fully updated of the latest and major happenings in Pakistan and around the globe in the form of breaking news, bulletins, well-equipped talk shows. Public News dutifully brings you news about the Public of Pakistan. It's all about Zuban-E-Khalq.",
-      "category": [
-        "education",
-        "crime",
-        "entertainment",
-        "world",
-        "health",
-        "technology",
-        "business",
-        "environment",
-        "sports",
-        "top",
-        "other",
-        "politics"
-      ],
-      "language": [
-        "urdu"
-      ],
-      "country": [
-        "pakistan"
-      ],
-      "total_article": 17252,
-      "last_fetch": "2025-10-01 10:50:52"
-    },
-    {
-      "id": "allafrica_et",
-      "name": "Allafrica Ethiopia",
-      "url": "https://allafrica.com/ethiopia",
-      "icon": "https://n.bytvi.com/allafrica_et.png",
-      "priority": 17283,
-      "description": "AllAfrica is a voice of, by and about Africa - aggregating, producing and distributing 600 news and information items daily from over 100 African news organizations and our own reporters to an African and global public. We operate from Cape Town, Dakar, Abuja, Johannesburg, Nairobi and Washington DC.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "ethiopia"
-      ],
-      "total_article": 4502,
-      "last_fetch": "2025-10-01 05:05:36"
-    },
-    {
-      "id": "livingstonenterprise",
-      "name": "livingstonenterprise.com",
-      "url": "https://www.livingstonenterprise.com",
-      "icon": "https://n.bytvi.com/livingstonenterprise.jpg",
-      "priority": 257626,
-      "description": "The Livingston Enterprise is committed to reflecting the news and telling the stories of our community, holding public officials accountable, and challenging citizens to continuously improve the beautiful place we all call home.",
-      "category": [
-        "other",
-        "sports",
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 3405,
-      "last_fetch": "2025-10-01 10:47:10"
-    },
-    {
-      "id": "cenderawasihpos_jawapos",
-      "name": "Cenderawasih Pos",
-      "url": "https://cenderawasihpos.jawapos.com",
-      "icon": "https://n.bytvi.com/cenderawasihpos_jawapos.png",
-      "priority": 934323,
-      "description": "Berita Terbaru Hari Ini Terkini Terhangat | Nasional Internasional Politik Ekonomi Olahraga Kesehatan.",
-      "category": [
-        "crime",
-        "business",
-        "sports",
-        "top",
-        "politics"
-      ],
-      "language": [
-        "indonesian"
-      ],
+      "description": "Kumpulan soal agama Buddha kelas 1 kurikulum merdeka 2025 semester 1 dengan 47 latihan pilihan ganda & jawaban. Klik untuk belajar lebih mudah.",
+      "content": "ONLY AVAILABLE IN PAID PLANS",
+      "pubDate": "2025-09-30 23:50:33",
+      "pubDateTZ": "UTC",
+      "image_url": "https://asset-2.tribunnews.com/pontianak/foto/bank/images/47-Soal-Agama-Buddha-Kelas-1-Kurikulum-Merdeka-2025-Semester-1-Pilihan-Ganda.jpg",
+      "video_url": null,
+      "source_id": "tribunnews",
+      "source_name": "Tribun News",
+      "source_priority": 149329,
+      "source_url": "https://www.tribunnews.com",
+      "source_icon": "https://n.bytvi.com/tribunnews.png",
+      "language": "indonesian",
       "country": [
         "indonesia"
       ],
-      "total_article": 15383,
-      "last_fetch": "2025-10-01 00:50:56"
-    },
-    {
-      "id": "kisalfold",
-      "name": "KISALFOLD",
-      "url": "https://www.kisalfold.hu",
-      "icon": "https://n.bytvi.com/kisalfold.png",
-      "priority": 2083918,
-      "description": "Győr-Moson-Sopron megyei hírportál",
       "category": [
+        "lifestyle",
         "top"
       ],
-      "language": [
-        "hungarian"
-      ],
-      "country": [
-        "hungary"
-      ],
-      "total_article": 50518,
-      "last_fetch": "2025-10-01 11:25:03"
+      "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+      "ai_content": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "duplicate": false
     },
     {
-      "id": "voetbalkrant",
-      "name": "Voetbalkrant",
-      "url": "https://www.voetbalkrant.com",
-      "icon": "https://n.bytvi.com/voetbalkrant.jpg",
-      "priority": 1636356,
-      "description": "Alles over voetbal! Van het laatste voetbalnieuws, voetbaltransfers, uitslagen en statistieken tot gratis spelletjes zoals een pronostiek en managerspel. Je vindt het hier allemaal!",
-      "category": [
-        "sports"
+      "article_id": "ac01bb7e45116322133ff19e07b9f8c9",
+      "title": "De niña a deidad: Nepal adora a su ‘kumari’ viviente en medio del Dashain",
+      "link": "https://entrelineas.com.mx/mundo/de-nina-a-deidad-nepal-adora-a-su-kumari-viviente-en-medio-del-dashain/",
+      "keywords": [
+        "mundo"
       ],
-      "language": [
-        "dutch"
+      "creator": [
+        "Editor"
       ],
+      "description": "Katmandú. Una niña de dos años elegida como la nueva diosa viviente de Nepal fue llevada el martes por miembros de su familia desde su hogar en un callejón de Katmandú hasta un templo-palacio durante el festival hindú más largo e importante del país. Aryatara Shakya, de dos años y ocho meses, fue elegida como la [...]",
+      "content": "ONLY AVAILABLE IN PAID PLANS",
+      "pubDate": "2025-09-30 23:49:00",
+      "pubDateTZ": "UTC",
+      "image_url": "https://entrelineas.com.mx/wp-content/uploads/2025/09/Captura-de-pantalla-2025-09-30-171235.png",
+      "video_url": null,
+      "source_id": "entrelineas",
+      "source_name": "Entrelineas",
+      "source_priority": 655477,
+      "source_url": "https://entrelineas.com.mx",
+      "source_icon": "https://n.bytvi.com/entrelineas.jpg",
+      "language": "spanish",
       "country": [
-        "belgium"
+        "mexico"
       ],
-      "total_article": 24863,
-      "last_fetch": "2025-10-01 11:24:19"
-    },
-    {
-      "id": "jjan",
-      "name": "전북일보 인터넷신문",
-      "url": "https://www.jjan.kr",
-      "icon": "https://n.bytvi.com/jjan.png",
-      "priority": 1959915,
-      "description": "전북의 대표 정론지인 전북일보입니다. 전북, 전북일보, 신문, 뉴스, 정치, 경제, 사회, 문화, 스포츠, 사람들",
       "category": [
-        "entertainment",
+        "lifestyle",
         "top"
       ],
-      "language": [
-        "korean"
-      ],
-      "country": [
-        "south korea"
-      ],
-      "total_article": 30288,
-      "last_fetch": "2025-10-01 08:15:16"
+      "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+      "ai_content": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "duplicate": false
     },
     {
-      "id": "mining_technology",
-      "name": "Mining Technology",
-      "url": "https://www.mining-technology.com",
-      "icon": "https://n.bytvi.com/mining_technology.jpg",
-      "priority": 911989,
-      "description": "Mining news and in-depth feature articles on the latest mining company deals and projects covering trends in mineral exploration with up to date data on the most mined metal and mineral commodities",
-      "category": [
-        "business",
-        "technology"
+      "article_id": "ec6a2903f2923c1b534ea1e226496582",
+      "title": "દોડવીર યુવક ગોધરા પહોંચ્યો:સોમનાથથી નેપાળ દોડયાત્રા કરનાર યુવક ગોધરા પહોંચ્યો",
+      "link": "https://www.divyabhaskar.co.in/local/gujarat/panchmahal/news/the-young-man-who-ran-from-somnath-to-nepal-reached-godhra-136060127.html",
+      "keywords": [
+        "divyabhaskar"
       ],
-      "language": [
-        "english"
+      "creator": [
+        "દિવ્ય ભાસ્કર"
       ],
+      "description": "યુવાનોની શક્તિ વધે યુવાનો વ્યસન મુક્ત બને અને યુવાનો એક થઇ રાષ્ટ્ર માટે કાર્ય કરે તે હેતુ થી સોમનાથથી પશુપતિનાથ (નેપાળ) દોડીને નીકળેલા યુવાન રૂપેશ મકવાણા મંગળવારે ગોધરા ખાતે આવી પહોચ્યો હતો. અમદાવાદ ઘટલોડિયાના યુવક રૂપેશ મકવાણા 22 સપ્ટેમ્બરે સોમનાથ મહાદેવ (વેરાવળ)થી પ્રસ્થાન કરી ૩૦ દિવસમાં પશુપતિનાથ નેપાળ સુધી દોડયાત્રામાં અંદાજે 2300 કિલોમીટર નું અંતર કાપશે. આ પહેલા 5 દિવસમાં 375 કિમી અને 88 દિવસમાં 6 હજાર કિમી ની દોડ કરી હતી. જેમના નામે ગિનિસ બુક ઓફ વર્લ્ડ રેકોર્ડ્સમાં નામ છે. ગુજરાતમાંથી ગૌરવ રત્ન તથા એથ્લેટીક્સમાં બે ગ્રિનિઝ વર્લ્ડ રેકોર્ડ તથા વર્લ્ડ વાઇલ્ડ એવોર્ડ્સ પણ નોંધાવેલ છે.રૂપેશભાઈ ટીમ સાથે પરવડી પહોચતા તેમનું ભવ્ય સ્વાગત કરાયાનું સામાજીક કાર્યકર જીગરભાઈ ઝીંઝુવાડિયાએ જણાવ્યું હતું.",
+      "content": "ONLY AVAILABLE IN PAID PLANS",
+      "pubDate": "2025-09-30 23:44:40",
+      "pubDateTZ": "UTC",
+      "image_url": "https://images.bhaskarassets.com/web2images/521/2020/11/dvb_1604320831.png",
+      "video_url": null,
+      "source_id": "divyabhaskar",
+      "source_name": "Divya Bhaskar",
+      "source_priority": 12246,
+      "source_url": "https://www.divyabhaskar.co.in",
+      "source_icon": "https://n.bytvi.com/divyabhaskar.png",
+      "language": "gujarati",
       "country": [
+        "india"
+      ],
+      "category": [
+        "lifestyle",
+        "top"
+      ],
+      "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+      "ai_content": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "duplicate": false
+    },
+    {
+      "article_id": "7a967f96b7f35c9bd5380515b1261d28",
+      "title": "Demand for anti-sacrilege law for all faiths in Punjab: Rally on Oct 1 as tower stir nears a year",
+      "link": "https://timesofindia.indiatimes.com/city/chandigarh/demand-for-anti-sacrilege-law-for-all-faiths-in-punjab-rally-on-oct-1-as-tower-stir-nears-a-year/articleshow/124243891.cms",
+      "keywords": [
+        "religions in punjab",
+        "punjab rally",
+        "tower protest",
+        "anti-sacrilege law",
+        "gurjeet singh khalsa"
+      ],
+      "creator": [
+        "Bharat Khanna"
+      ],
+      "description": null,
+      "content": "ONLY AVAILABLE IN PAID PLANS",
+      "pubDate": "2025-09-30 23:37:56",
+      "pubDateTZ": "UTC",
+      "image_url": "https://static.toiimg.com/thumb/msid-124243889,width-1070,height-580,imgsize-43030,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      "video_url": null,
+      "source_id": "toi",
+      "source_name": "The Times Of India",
+      "source_priority": 2178,
+      "source_url": "https://timesofindia.indiatimes.com",
+      "source_icon": "https://n.bytvi.com/toi.png",
+      "language": "english",
+      "country": [
+        "india"
+      ],
+      "category": [
         "world"
       ],
-      "total_article": 3270,
-      "last_fetch": "2025-08-28 15:13:11"
+      "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+      "ai_content": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "duplicate": false
     },
     {
-      "id": "deia",
-      "name": "Deia",
-      "url": "https://www.deia.eus",
-      "icon": "https://n.bytvi.com/deia.png",
-      "priority": 753615,
-      "description": "La actualidad de Bizkaia con noticias de Bilbao, Ezkerraldea, Eskuinaldea, Athletic, política, cultura, opinión, ocio y más en Deia.eus",
-      "category": [
-        "business",
-        "sports",
-        "entertainment",
-        "top"
-      ],
-      "language": [
-        "spanish"
-      ],
-      "country": [
-        "spain"
-      ],
-      "total_article": 89026,
-      "last_fetch": "2025-10-01 11:21:40"
-    },
-    {
-      "id": "sportime",
-      "name": "SPORTIME",
-      "url": "https://www.sportime.gr",
-      "icon": "https://n.bytvi.com/sportime.png",
-      "priority": 670024,
-      "description": "Αθλητική ενημέρωση για όλα τα τελευταία αθλητικά νέα, ειδήσεις για όλα τα σπορ από την Ελλάδα και τον κόσμο.",
-      "category": [
-        "sports"
-      ],
-      "language": [
-        "greek"
-      ],
-      "country": [
-        "greece"
-      ],
-      "total_article": 96703,
-      "last_fetch": "2025-10-01 11:20:54"
-    },
-    {
-      "id": "afrikipresse_fr",
-      "name": "Afrikipresse",
-      "url": "https://www.afrikipresse.fr",
-      "icon": "https://n.bytvi.com/afrikipresse_fr.png",
-      "priority": 2724065,
-      "description": "Afrikipresse couvre toutes les actualités d'Afrique, avec des reportages et des décryptages sur les événements du continent.",
-      "category": [
-        "other"
-      ],
-      "language": [
-        "french"
-      ],
-      "country": [
-        "south africa"
-      ],
-      "total_article": 600,
-      "last_fetch": null
-    },
-    {
-      "id": "pembroke_today",
-      "name": "Pembroke-Today Co Uk",
-      "url": "https://www.pembroke-today.co.uk",
-      "icon": null,
-      "priority": 15308702,
-      "description": "Latest news, sport and what’s on in Pembroke and your local area.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united kingdom"
-      ],
-      "total_article": 2768,
-      "last_fetch": "2025-10-01 11:28:45"
-    },
-    {
-      "id": "patspulpit",
-      "name": "Pats Pulpit",
-      "url": "https://www.patspulpit.com",
-      "icon": "https://n.bytvi.com/patspulpit.png",
-      "priority": 16959,
-      "description": "Your best source for quality New England Patriots news, rumors, analysis, stats and scores from the fan perspective.",
-      "category": [
-        "sports"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 10222,
-      "last_fetch": "2025-10-01 11:06:12"
-    },
-    {
-      "id": "knack",
-      "name": "Knack",
-      "url": "https://www.knack.be",
-      "icon": "https://n.bytvi.com/knack.jpg",
-      "priority": 295044,
-      "description": "De hele dag nieuws, analyses, opinies en diepgravende journalistiek. Helemaal anders, helemaal Knack",
-      "category": [
-        "world",
-        "health",
-        "technology",
-        "environment",
-        "top",
-        "politics",
-        "science"
-      ],
-      "language": [
-        "dutch"
-      ],
-      "country": [
-        "belgium"
-      ],
-      "total_article": 5714,
-      "last_fetch": "2025-10-01 09:53:20"
-    },
-    {
-      "id": "dailyrecord",
-      "name": "Daily Record",
-      "url": "https://www.dailyrecord.co.uk/news",
-      "icon": "https://n.bytvi.com/dailyrecord.png",
-      "priority": 13708,
-      "description": "dailyrecord.co.uk is the online edition of The Daily Record, one of Scotland's most trusted news brands.",
-      "category": [
-        "entertainment",
-        "world",
-        "crime",
-        "health",
-        "technology",
-        "sports",
-        "top",
-        "politics",
-        "science"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "australia",
-        "united kingdom"
-      ],
-      "total_article": 159198,
-      "last_fetch": "2025-10-01 11:35:29"
-    },
-    {
-      "id": "thelocal_fr",
-      "name": "The Local France",
-      "url": "https://www.thelocal.fr",
-      "icon": "https://n.bytvi.com/thelocal_fr.jpg",
-      "priority": 28790,
-      "description": "Latest news, travel, politics, money, jobs and more. Get guides on property, second homes, visas, language, taxes from The Local's journalists in France.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "france"
-      ],
-      "total_article": 3814,
-      "last_fetch": "2025-10-01 10:38:38"
-    },
-    {
-      "id": "therolladailynews",
-      "name": "The Rolla Daily News",
-      "url": "https://www.therolladailynews.com",
-      "icon": "https://n.bytvi.com/therolladailynews.jpg",
-      "priority": 33232,
-      "description": "therolladailynews.com! My name is Rolla B. Johnson, and I’m a craft artist based in Clemens Marketplace, Indiana. What I do is pretty simple: I take everyday objects and turn them into beautiful pieces of art that people can appreciate.",
-      "category": [
-        "entertainment",
-        "education",
-        "health",
-        "technology",
-        "business",
-        "tourism",
-        "sports",
-        "top",
-        "lifestyle",
-        "other",
-        "politics"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 548,
-      "last_fetch": "2025-09-29 10:37:57"
-    },
-    {
-      "id": "jo24",
-      "name": "JO24",
-      "url": "https://jo24.net",
-      "icon": "https://n.bytvi.com/jo24.png",
-      "priority": 170506,
-      "description": "أخبار الأردن اليومية في موقع جو24 الألكتروني،أخبار المحافظات اليومية،خبر عاجل من عمان و المحافظات الأردنية،وكالة جو24 الأخبارية، أخبار على مدار الساعة",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "arabic"
-      ],
-      "country": [
-        "jordan"
-      ],
-      "total_article": 24345,
-      "last_fetch": "2025-10-01 11:44:21"
-    },
-    {
-      "id": "lexpress",
-      "name": "L'Express",
-      "url": "https://lexpress.mg",
-      "icon": "https://n.bytvi.com/lexpress.png",
-      "priority": 526716,
-      "description": "Dernières nouvelles et actualités de Madagascar. Politique, économie, sport, culture, social et faits divers. Madagascar, Océan Indien, Afrique, Monde.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "french"
-      ],
-      "country": [
-        "madagascar"
-      ],
-      "total_article": 16484,
-      "last_fetch": "2025-10-01 03:18:03"
-    },
-    {
-      "id": "begeek",
-      "name": "Begeek",
-      "url": "https://www.begeek.fr",
-      "icon": "https://n.bytvi.com/begeek.jpg",
-      "priority": 131108,
-      "description": "De la Tech, de Pop culture et des bons plans, depuis 2006.",
-      "category": [
-        "business",
-        "entertainment",
-        "science",
-        "technology"
-      ],
-      "language": [
-        "french"
-      ],
-      "country": [
-        "france"
-      ],
-      "total_article": 2260,
-      "last_fetch": "2025-10-01 11:13:46"
-    },
-    {
-      "id": "ilnapolista",
-      "name": "Il Napolista",
-      "url": "https://www.ilnapolista.it",
-      "icon": "https://n.bytvi.com/ilnapolista.png",
-      "priority": 882351,
-      "description": "Un giornale di notizie e opinioni non comuni sul calcio Napoli e su Napoli. Sport, video, approfondimenti e cultura.",
-      "category": [
-        "business",
-        "sports",
-        "entertainment",
-        "top"
-      ],
-      "language": [
-        "italian"
-      ],
-      "country": [
-        "italy"
-      ],
-      "total_article": 19897,
-      "last_fetch": "2025-10-01 11:22:37"
-    },
-    {
-      "id": "liveakhbar",
-      "name": "Live Khabar",
-      "url": "https://www.liveakhbar.in",
-      "icon": "https://n.bytvi.com/liveakhbar.png",
-      "priority": 484751,
-      "description": "Pop Culture Hub",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
+      "article_id": "819d17b4fbab35aaa5ac135f62a6e9e4",
+      "title": "TVK’s Aadhav Arjuna ‘Gen Z revolution’ post triggers political storm; DMK, allies target Vijay after Karu - Indiatimes",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUGhHa1FIdzRrb29vREhZcWdyV1Z6bUdTNGJkNmsxNTlBRmo5UU5wQnlDZ1plR0ZMZ3EzY3FfcWR5OUVjb0VKSk83dGZNZFZiU2VXLXZzM3VSUVhlZ05od3lRM0k0T1BkSi1MRDg3WERpcmVyX0YwREF5cV9pb0k3eHotbXh2R3B3NzJHSG5NWW5xNGVkSk1TRmFBdHg3bEpaaXhGVElhdkNVNjlldHlMYkt6dXZsaVE2RnVkV21WcjlZVGsyaXE0Tnd4WnA0QUc40gHWAUFVX3lxTE5rRmFKZWZTS25NNUdzY2ZCVGNMWXpFa2E2VFNFejEwck01WHUxQU1FczBacXRDeEY3MWVRVWRna0JuQ1hBZlc0TTItMEJpRkRHcFVqa3RGMXh6MjNPODFjRUMxMW1yV3NUSkdaeGV1emFEeHB0V3Nyd09INVRLY0pVbTBmeVA3Mk5rZjFTSWlmQXRSaklYODNCT2o0dFBwbzctOEVFY1ZZT2ttR3BjcGxtQWtyZzdoY1JrdDJmRGlGRkc3UTZEdzJwREpFNWhqUDYwQTZla0E?oc=5",
+      "keywords": null,
+      "creator": null,
+      "description": "TVK’s Aadhav Arjuna ‘Gen Z revolution’ post triggers political storm; DMK, allies target Vijay after Karu IndiatimesTVK Leader Charged For Controversial 'Gen Z' Post After Stampede NDTV‘Uprising will be foundation for....’: What TVK leader's controversial ‘Gen Z’ post after Karur stampede said Hindustan TimesTVK leader Aadhav Arjuna booked for deleted X post calling for Nepal-like ‘uprising’ in T.N. The HinduTN police book TVK leader for calling for Nepal-like Gen Z protest to oust state govt The News Minute",
+      "content": "ONLY AVAILABLE IN PAID PLANS",
+      "pubDate": "2025-09-30 23:34:00",
+      "pubDateTZ": "UTC",
+      "image_url": null,
+      "video_url": null,
+      "source_id": "google",
+      "source_name": "Google News",
+      "source_priority": 14,
+      "source_url": "https://news.google.com",
+      "source_icon": "https://n.bytvi.com/google.png",
+      "language": "english",
       "country": [
         "india"
       ],
-      "total_article": 4835,
-      "last_fetch": "2023-11-27 06:06:07"
-    },
-    {
-      "id": "nashvillescene",
-      "name": "Nashvillescene",
-      "url": "https://www.nashvillescene.com",
-      "icon": "https://n.bytvi.com/nashvillescene.png",
-      "priority": 54829,
-      "description": "Nashville’s alternative-weekly newspaper, covering state and local politics, music, food, the arts and more. Free. Thinking.",
-      "category": [
-        "entertainment",
-        "education",
-        "business",
-        "sports",
-        "top",
-        "other",
-        "food"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 2170,
-      "last_fetch": "2025-10-01 10:40:49"
-    },
-    {
-      "id": "ndjamenahebdo",
-      "name": "NDJAMENA HEBDO",
-      "url": "https://ndjamenahebdo.net",
-      "icon": "https://n.bytvi.com/ndjamenahebdo.png",
-      "priority": 14120834,
-      "description": "The N'Djamena Hebdo is a Chadian newspaper. In the 1990s Chadian government security forces attacked the offices of the paper killing a number of journalists.",
-      "category": [
-        "entertainment",
-        "education",
-        "health",
-        "business",
-        "sports",
-        "top",
-        "other",
-        "politics"
-      ],
-      "language": [
-        "french"
-      ],
-      "country": [
-        "chad"
-      ],
-      "total_article": 674,
-      "last_fetch": "2025-10-01 11:29:53"
-    },
-    {
-      "id": "lockportjournal",
-      "name": "Lockportjournal com",
-      "url": "https://www.lockportjournal.com",
-      "icon": "https://n.bytvi.com/lockportjournal.png",
-      "priority": 24726,
-      "description": "lockportjournal.com | Your community...your newspaper.",
-      "category": [
-        "crime",
-        "sports",
-        "top",
-        "lifestyle"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 8804,
-      "last_fetch": "2025-10-01 10:08:50"
-    },
-    {
-      "id": "backnanger",
-      "name": "Backnanger Kreiszeitung",
-      "url": "https://www.bkz.de",
-      "icon": "https://n.bytvi.com/backnanger.png",
-      "priority": 41916014,
-      "description": "Nah dran",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "german"
-      ],
-      "country": [
-        "germany"
-      ],
-      "total_article": 3817,
-      "last_fetch": "2025-10-01 09:31:11"
-    },
-    {
-      "id": "shelbynews",
-      "name": "Shelbynews com",
-      "url": "https://www.shelbynews.com",
-      "icon": "https://n.bytvi.com/shelbynews.png",
-      "priority": 143184,
-      "description": "The Shelbyville News was launched Dec. 1, 1947, following the merger of The Shelbyville Democrat and The Shelbyville Republican. It traces its heritage to The Daily Republican, which is believed to have been the first daily newspaper published in Shelby County, started by Sim Thompson in 1875.",
-      "category": [
-        "sports",
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 48205,
-      "last_fetch": "2025-10-01 10:15:12"
-    },
-    {
-      "id": "vb",
-      "name": "Вечерний Бишкек",
-      "url": "https://www.vb.kg",
-      "icon": "https://n.bytvi.com/vb.png",
-      "priority": 2705705,
-      "description": "Оперативно и достоверно о событиях в Кыргызстане: политика, экономика, происшествия, спорт, культура. Больше чем новости в Кыргызстане: фото, видео, инфографика, комментарии.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "russian"
-      ],
-      "country": [
-        "kyrgyzstan"
-      ],
-      "total_article": 10115,
-      "last_fetch": "2025-10-01 09:57:09"
-    },
-    {
-      "id": "minutouno",
-      "name": "MinutoUno",
-      "url": "https://www.minutouno.com",
-      "icon": "https://n.bytvi.com/minutouno.png",
-      "priority": 33172,
-      "description": "Las últimas noticias de Argentina, espectáculos y deportes",
-      "category": [
-        "entertainment",
-        "world",
-        "technology",
-        "business",
-        "tourism",
-        "sports",
-        "other",
-        "food",
-        "politics"
-      ],
-      "language": [
-        "spanish"
-      ],
-      "country": [
-        "argentina"
-      ],
-      "total_article": 49197,
-      "last_fetch": "2025-10-01 11:38:21"
-    },
-    {
-      "id": "laopiniondezamora",
-      "name": "La Opinión de Zamora",
-      "url": "https://www.laopiniondezamora.es",
-      "icon": "https://n.bytvi.com/laopiniondezamora.png",
-      "priority": 405979,
-      "description": "Noticias de Zamora, actualidad y última hora en La Opinión de Zamora. Periódico Digital Líder en Zamora. Actualidad de Zamora y Provincia, información de última hora del campo, deportes, política y sucesos",
-      "category": [
-        "entertainment",
-        "world",
-        "education",
-        "health",
-        "technology",
-        "business",
-        "environment",
-        "tourism",
-        "sports",
-        "top",
-        "lifestyle",
-        "other",
-        "food",
-        "politics",
-        "science"
-      ],
-      "language": [
-        "spanish"
-      ],
-      "country": [
-        "spain"
-      ],
-      "total_article": 119410,
-      "last_fetch": "2025-10-01 11:19:13"
-    },
-    {
-      "id": "techbullion",
-      "name": "TechBullion",
-      "url": "https://techbullion.com/cryptocurrency",
-      "icon": "https://n.bytvi.com/techbullion.png",
-      "priority": 56791,
-      "description": "TechBullion is a Financial Technology News Website, focusing on Global Fintech News and Market. Get latest tech news and articles on TechBulli, Latest Cryptocurrency News and Articles on Bitcoin, Altcoins and Crypto Market. Cryptocurrency Innovations, Analysis and Interviews from Industry Experts.",
-      "category": [
-        "business",
-        "technology",
-        "top",
-        "lifestyle"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united kingdom"
-      ],
-      "total_article": 72212,
-      "last_fetch": "2025-10-01 11:40:43"
-    },
-    {
-      "id": "vf_se",
-      "name": "från Värmland",
-      "url": "https://www.vfb.se",
-      "icon": "https://n.bytvi.com/vf_se.png",
-      "priority": 78754,
-      "description": "VF håller dig uppdaterad dygnet runt med blåljus-, sportnyheter och andra lokala nyheter från hela Värmland",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "swedish"
-      ],
-      "country": [
-        "sweden"
-      ],
-      "total_article": 42228,
-      "last_fetch": "2025-10-01 11:41:03"
-    },
-    {
-      "id": "inverness_courier",
-      "name": "Inverness Courier",
-      "url": "https://www.inverness-courier.co.uk",
-      "icon": "https://n.bytvi.com/inverness_courier.png",
-      "priority": 131401,
-      "description": "The Latest News, Sport and What's On from Inverness - from Inverness Courier and Highland News from Highland News &amp; Media Ltd",
-      "category": [
-        "sports",
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united kingdom"
-      ],
-      "total_article": 11332,
-      "last_fetch": "2025-10-01 11:43:36"
-    },
-    {
-      "id": "cqtoday",
-      "name": "Central Queensland Today",
-      "url": "https://cqtoday.com.au",
-      "icon": "https://n.bytvi.com/cqtoday.png",
-      "priority": 2630851,
-      "description": "Local news and information in print and online for Central Queensland based at our offices in Rockhampton, QLD and serving the community including Gladstone QLD.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "australia"
-      ],
-      "total_article": 502,
-      "last_fetch": "2025-10-01 04:25:10"
-    },
-    {
-      "id": "actualno",
-      "name": "Actualno",
-      "url": "https://www.actualno.com",
-      "icon": "https://n.bytvi.com/actualno.png",
-      "priority": 8972,
-      "description": "Последни новини от България и света Водещи новини от днес Горещи политически теми Последни бизнес вести Спортни и забавни статии Actualno.com",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "bulgarian"
-      ],
-      "country": [
-        "bulgaria"
-      ],
-      "total_article": 135264,
-      "last_fetch": "2025-10-01 11:33:43"
-    },
-    {
-      "id": "freepressseries",
-      "name": "Freepressseries Co Uk",
-      "url": "https://www.freepressseries.co.uk",
-      "icon": "https://n.bytvi.com/freepressseries.png",
-      "priority": 6510927,
-      "description": "Free Press - news, sport, what's on, property, cars & jobs in Chepstow, Pontypool, Caldicot, Monmouth, Abergavenny, Usk, Cwmbran, Raglan & Wales",
-      "category": [
-        "business",
-        "entertainment",
-        "sports",
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united kingdom"
-      ],
-      "total_article": 70827,
-      "last_fetch": "2025-10-01 11:27:53"
-    },
-    {
-      "id": "dal_ca",
-      "name": "Dalhousie University",
-      "url": "https://www.dal.ca",
-      "icon": "https://n.bytvi.com/dal_ca.png",
-      "priority": 12200,
-      "description": "With campuses located in Halifax and Truro, NS, Dalhousie is a research-intensive university offering over 300 degrees in 13 diverse faculties.",
-      "category": [
-        "sports",
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "canada"
-      ],
-      "total_article": 219,
-      "last_fetch": "2025-09-30 15:04:38"
-    },
-    {
-      "id": "lapaginamillonaria",
-      "name": "La P",
-      "url": "https://lapaginamillonaria.com",
-      "icon": "https://n.bytvi.com/lapaginamillonaria.png",
-      "priority": 23877,
-      "description": "Sitio web dedicado al Club Atl",
-      "category": [
-        "sports"
-      ],
-      "language": [
-        "spanish"
-      ],
-      "country": [
-        "argentina"
-      ],
-      "total_article": 16284,
-      "last_fetch": "2025-10-01 11:36:32"
-    },
-    {
-      "id": "cameroon",
-      "name": "Cameroon",
-      "url": "https://www.cameroon-tribune.cm",
-      "icon": "https://n.bytvi.com/cameroon.png",
-      "priority": 2067776,
-      "description": "actualité au Cameroun en continu. Actualité politique, société et sports au Cameroun et à l'international.Ce site est la propriété de la SOPECAM",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "french"
-      ],
-      "country": [
-        "cameroon"
-      ],
-      "total_article": 3414,
-      "last_fetch": "2025-09-23 04:24:06"
-    },
-    {
-      "id": "whatnowsandiego",
-      "name": "What Now San Diego",
-      "url": "https://whatnowsandiego.com",
-      "icon": "https://n.bytvi.com/whatnowsandiego.png",
-      "priority": 2544776,
-      "description": "What Now San Diego is the premier news source for planned restaurants, retail, and real estate in the San Diego, CA area. Learn what's trending in SD today!",
-      "category": [
-        "lifestyle"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 237,
-      "last_fetch": "2025-09-30 18:25:47"
-    },
-    {
-      "id": "francetvinfo",
-      "name": "Franceinfo",
-      "url": "https://www.francetvinfo.fr",
-      "icon": "https://n.bytvi.com/francetvinfo.png",
-      "priority": 50698,
-      "description": "Pour savoir ce qui se passe maintenant - Toutes les infos livrées minute par minute par la rédaction de Franceinfo. Photos, vidéos, tweets et vos interventions",
-      "category": [
-        "entertainment",
-        "technology",
-        "health",
-        "business",
-        "sports",
-        "top",
-        "politics",
-        "science"
-      ],
-      "language": [
-        "french"
-      ],
-      "country": [
-        "france"
-      ],
-      "total_article": 192067,
-      "last_fetch": "2025-10-01 11:39:47"
-    },
-    {
-      "id": "ndtvprofit",
-      "name": "NDTV Profit",
-      "url": "https://www.ndtvprofit.com",
-      "icon": "https://n.bytvi.com/ndtvprofit.png",
-      "priority": 32180,
-      "description": "Business News LIVE: Get the latest and breaking business news, finance news, stock market updates from India and International markets on NDTV Profit.",
-      "category": [
-        "business"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "india"
-      ],
-      "total_article": 5305,
-      "last_fetch": "2025-10-01 11:38:17"
-    },
-    {
-      "id": "bhaskarhindi",
-      "name": "Bhaskar Hindi",
-      "url": "https://www.bhaskarhindi.com",
-      "icon": "https://n.bytvi.com/bhaskarhindi.png",
-      "priority": 83784,
-      "description": "Dainik Bhaskar (दैनिक भास्कर) Hindi News Samachar - Find all Hindi News and hindikhabharhindikhabharSamachar, News in Hindi, Hindi News Headlines and Daily Breaking Hindi News, Coronavirus latest updates today and Politics News, Business News, Entertainment News, Bollywood News, Technology News, Sports News, Cricket News, Lifestyle News, Current Affairs in India &amp; World Updated from BhaskarHindi.com.",
-      "category": [
-        "entertainment",
-        "world",
-        "technology",
-        "business",
-        "sports",
-        "top",
-        "politics"
-      ],
-      "language": [
-        "hindi"
-      ],
-      "country": [
-        "india"
-      ],
-      "total_article": 35845,
-      "last_fetch": "2025-10-01 11:41:25"
-    },
-    {
-      "id": "suomenkuvalehti",
-      "name": "Etusivu - Suomenkuvalehti.fi",
-      "url": "https://suomenkuvalehti.fi",
-      "icon": "https://n.bytvi.com/suomenkuvalehti.jpg",
-      "priority": 4662737,
-      "description": "Suomen Kuvalehti ja Suomenkuvalehti.fi",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "finnish"
-      ],
-      "country": [
-        "finland"
-      ],
-      "total_article": 4222,
-      "last_fetch": "2025-10-01 03:25:33"
-    },
-    {
-      "id": "reporterherald",
-      "name": "Loveland Reporter-Herald",
-      "url": "https://www.reporterherald.com",
-      "icon": "https://n.bytvi.com/reporterherald.jpg",
-      "priority": 24702,
-      "description": "Loveland, Colorado breaking news, sports, business, entertainment, real estate, jobs and classifieds",
-      "category": [
-        "crime",
-        "education",
-        "entertainment",
-        "health",
-        "business",
-        "tourism",
-        "sports",
-        "top",
-        "other",
-        "politics"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 25389,
-      "last_fetch": "2025-10-01 11:39:13"
-    },
-    {
-      "id": "jordantimes",
-      "name": "Jordan Times",
-      "url": "http://jordantimes.com",
-      "icon": "https://n.bytvi.com/jordantimes.png",
-      "priority": 58356,
-      "description": "Your local English newspaper from Jordan since 1975. Contact us: Editor@jordantimes.com",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "arabic"
-      ],
-      "country": [
-        "jordan"
-      ],
-      "total_article": 6299,
-      "last_fetch": "2025-05-25 19:35:39"
-    },
-    {
-      "id": "digitalextremadura",
-      "name": "Digital Extremadura",
-      "url": "https://digitalextremadura.com",
-      "icon": "https://n.bytvi.com/digitalextremadura.png",
-      "priority": 1547312,
-      "description": "Información, opinión. Extremadura. España. Comunicación. Cultura Segura.",
-      "category": [
-        "entertainment",
-        "technology",
-        "health",
-        "business",
-        "tourism",
-        "sports",
-        "top",
-        "other",
-        "food"
-      ],
-      "language": [
-        "spanish"
-      ],
-      "country": [
-        "spain"
-      ],
-      "total_article": 2124,
-      "last_fetch": "2025-10-01 11:25:22"
-    },
-    {
-      "id": "football365",
-      "name": "Football365",
-      "url": "https://www.football365.com",
-      "icon": "https://n.bytvi.com/football365.png",
-      "priority": 31753,
-      "description": "Football365 - Views, Live Matches, Gossip, and more.",
-      "category": [
-        "sports"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united kingdom"
-      ],
-      "total_article": 42367,
-      "last_fetch": "2025-10-01 11:38:22"
-    },
-    {
-      "id": "grimsbytetelegraph",
-      "name": "Grimsby Live",
-      "url": "https://www.grimsbytelegraph.co.uk",
-      "icon": "https://n.bytvi.com/grimsbytetelegraph.png",
-      "priority": 300121,
-      "description": "GrimsbyLive is the digital news channel of The Grimsby Telegraph, Lincolnshire’s only daily newspaper, and the Scunthorpe Telegraph",
-      "category": [
-        "entertainment",
-        "environment",
-        "sports",
-        "top",
-        "other",
-        "food"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united kingdom"
-      ],
-      "total_article": 14754,
-      "last_fetch": "2025-10-01 11:17:44"
-    },
-    {
-      "id": "elbashayer",
-      "name": "جريدة البشاير",
-      "url": "https://www.elbashayer.com",
-      "icon": "https://n.bytvi.com/elbashayer.jpg",
-      "priority": 414284,
-      "description": "جريدة البشاير تقدم أحدث أخبار مصر والدول العربية والعالم وأخبار الرياضة والفن والاقتصاد والسياسة وخدمات الطقس والوظائف والأسعار.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "arabic"
-      ],
-      "country": [
-        "egypt"
-      ],
-      "total_article": 23607,
-      "last_fetch": "2025-07-17 08:21:05"
-    },
-    {
-      "id": "news_usf",
-      "name": "University Of South Florida",
-      "url": "https://www.usf.edu/news",
-      "icon": "https://n.bytvi.com/news_usf.png",
-      "priority": 263913,
-      "description": "The University of South Florida (USF) is a high-impact, global research university dedicated to student success serving Tampa, St. Petersburg and Sarasota-Manatee.",
-      "category": [
-        "other",
-        "health"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 697,
-      "last_fetch": "2025-09-30 23:15:26"
-    },
-    {
-      "id": "theborneopost",
-      "name": "Borneo",
-      "url": "https://www.theborneopost.com",
-      "icon": "https://n.bytvi.com/theborneopost.png",
-      "priority": 1019522,
-      "description": "We are the news portal of the largest English daily in Borneo. We strive to cover news and happenings throughout the island of Borneo, particularly .",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "malay"
-      ],
-      "country": [
-        "malaysia"
-      ],
-      "total_article": 41927,
-      "last_fetch": "2025-10-01 11:22:31"
-    },
-    {
-      "id": "sharenews24",
-      "name": "Share News 24.com",
-      "url": "http://sharenews24.com",
-      "icon": "https://n.bytvi.com/sharenews24.jpg",
-      "priority": 1736845,
-      "description": "We have an experienced stock market analyzing team, who analyzes theoretically about the terms of Stock Market with current situation based. In this circumstance, Share News making stock market related reports with the cooperation of that team. The team analyzes Dhaka & Chittagong stock Exchange Trading. Share News also reporting Political, Economical, Entertainment, National, International, Sports and Local News",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "bengali"
-      ],
-      "country": [
-        "bangladesh"
-      ],
-      "total_article": 23744,
-      "last_fetch": "2025-04-08 15:31:55"
-    },
-    {
-      "id": "nb1",
-      "name": "NB1",
-      "url": "https://nb1.hu",
-      "icon": "https://n.bytvi.com/nb1.png",
-      "priority": 3945791,
-      "description": "Domestic and international football news.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "hungarian"
-      ],
-      "country": [
-        "hungary"
-      ],
-      "total_article": 12291,
-      "last_fetch": "2025-10-01 10:57:13"
-    },
-    {
-      "id": "kdhnews",
-      "name": "Killeen Daily Herald",
-      "url": "https://kdhnews.com",
-      "icon": "https://n.bytvi.com/kdhnews.jpg",
-      "priority": 81501,
-      "description": "The Killeen Daily Herald is your source for Killeen news, sports, weather, traffic and all other local or national news.",
-      "category": [
-        "crime",
-        "education",
-        "world",
-        "technology",
-        "health",
-        "business",
-        "environment",
-        "tourism",
-        "sports",
-        "top",
-        "other",
-        "science"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 152282,
-      "last_fetch": "2025-10-01 11:12:40"
-    },
-    {
-      "id": "dowjones",
-      "name": "Dow Jones",
-      "url": "https://www.dowjones.com",
-      "icon": "https://n.bytvi.com/dowjones.jpg",
-      "priority": 13858,
-      "description": "Dow Jones publishes the world’s most trusted business news and financial information in a variety of media. It delivers breaking news, exclusive insights, expert commentary and personal finance strategies.",
-      "category": [
-        "business"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 121,
-      "last_fetch": "2025-09-30 15:35:12"
-    },
-    {
-      "id": "apnews",
-      "name": "Apnews",
-      "url": "https://apnews.com",
-      "icon": "https://n.bytvi.com/apnews.png",
-      "priority": 110,
-      "description": "Read the latest headlines, breaking news, and videos at APNews.com, the definitive source for independent journalism from every corner of the globe.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 183140,
-      "last_fetch": "2025-10-01 11:30:13"
-    },
-    {
-      "id": "yourstephenvilletx",
-      "name": "Stephenville Empire-Tribune",
-      "url": "https://www.yourstephenvilletx.com",
-      "icon": "https://n.bytvi.com/yourstephenvilletx.png",
-      "priority": 581972,
-      "description": "Our mission is to capitalize on our roots as a technology company to provide innovative media and technology services to our local communities while simultaneously improving the digital experience and engagement of our subscribers.",
-      "category": [
-        "entertainment",
-        "sports",
-        "top",
-        "lifestyle",
-        "other"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "united states of america"
-      ],
-      "total_article": 827,
-      "last_fetch": "2025-09-27 19:06:54"
-    },
-    {
-      "id": "qaumitanzeem",
-      "name": "Qaumi Tanzeem",
-      "url": "https://www.qaumitanzeem.com",
-      "icon": "https://n.bytvi.com/qaumitanzeem.png",
-      "priority": 1003200,
-      "description": "Qaumi Tanzeem is a leading Urdu newspaper from Bihar.",
-      "category": [
-        "education",
-        "entertainment",
-        "world",
-        "sports",
-        "top",
-        "other"
-      ],
-      "language": [
-        "urdu"
-      ],
-      "country": [
-        "algeria",
-        "united arab emirates",
-        "cyprus",
-        "lebanon",
-        "bahrain",
-        "turkey",
-        "azerbaijan",
-        "pakistan",
-        "georgia",
-        "turkmenistan",
-        "morocco",
-        "india",
-        "armenia",
-        "israel",
-        "yemen",
-        "djibouti",
-        "kyrgyzstan",
-        "uzbekistan",
-        "somalia",
-        "libya",
-        "tajikistan",
-        "iraq",
-        "kazakhstan",
-        "ethiopia",
-        "oman",
-        "mauritania",
-        "jordan",
-        "sudan",
-        "tunisia",
-        "afghanistan",
-        "saudi arabia",
-        "syria",
-        "iran",
-        "kuwait",
-        "egypt",
-        "qatar"
-      ],
-      "total_article": 2647,
-      "last_fetch": "2025-10-01 11:22:53"
-    },
-    {
-      "id": "tageblatt",
-      "name": "Tageblatt Lu",
-      "url": "https://www.tageblatt.lu",
-      "icon": "https://n.bytvi.com/tageblatt.png",
-      "priority": 165005,
-      "description": "Auf Tageblatt.lu finden Sie News aus Luxemburg und aller Welt mit Kommentaren und Hintergrundberichten aus allen Bereichen: Von Politik und Wirtschaft bis Sport",
-      "category": [
-        "entertainment",
-        "world",
-        "business",
-        "sports",
-        "top",
-        "politics"
-      ],
-      "language": [
-        "german"
-      ],
-      "country": [
-        "luxembourg"
-      ],
-      "total_article": 16058,
-      "last_fetch": "2025-10-01 09:45:34"
-    },
-    {
-      "id": "nnnde",
-      "name": "NNN",
-      "url": "https://www.nnn.de",
-      "icon": "https://n.bytvi.com/nnnde.png",
-      "priority": 701644,
-      "description": "Das ✔Nachrichtenportal für regionale und lokale Nachrichten aus ✔Mecklenburg, ✔Vorpommern und ✔Brandenburg. →Jetzt lesen!",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "german"
-      ],
-      "country": [
-        "germany"
-      ],
-      "total_article": 66234,
-      "last_fetch": "2025-10-01 11:21:04"
-    },
-    {
-      "id": "kyoto_np",
-      "name": "京都新聞",
-      "url": "https://www.kyoto-np.co.jp",
-      "icon": "https://n.bytvi.com/kyoto_np.jpg",
-      "priority": 140871,
-      "description": "京都・滋賀を中心にニュースを分かりやすく伝えます。京都のまちの話題や文化、経済、スポーツのニュース、京都観光のニュースなども充実。「京都のポータルサイト」を目指します。",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "japanese"
-      ],
-      "country": [
-        "japan"
-      ],
-      "total_article": 39744,
-      "last_fetch": "2025-10-01 11:14:07"
-    },
-    {
-      "id": "webrazzi",
-      "name": "Webrazzi",
-      "url": "https://webrazzi.com",
-      "icon": "https://n.bytvi.com/webrazzi.png",
-      "priority": 1126772,
-      "description": "Webrazzi internet girişimleri, sosyal medya, dijital pazarlama ve mobil konularına odaklı MENA bölgesinin en popüler teknoloji blogudur.",
-      "category": [
-        "technology"
-      ],
-      "language": [
-        "turkish"
-      ],
-      "country": [
-        "turkey"
-      ],
-      "total_article": 7118,
-      "last_fetch": "2025-10-01 10:53:22"
-    },
-    {
-      "id": "hypebeast_id",
-      "name": "Hypebeast Indonesia",
-      "url": "https://hypebeast.com/id",
-      "icon": "https://n.bytvi.com/hypebeast_id.png",
-      "priority": 2612,
-      "description": "Hypebeast adalah destinasi utama untuk mens fashion dan streetwear. Belanja di store kami dan nikmati konten editorial harian terbaik",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "indonesian"
-      ],
-      "country": [
-        "indonesia"
-      ],
-      "total_article": 436,
-      "last_fetch": "2025-10-01 10:33:04"
-    },
-    {
-      "id": "qds",
-      "name": "QdS",
-      "url": "https://qds.it",
-      "icon": "https://n.bytvi.com/qds.png",
-      "priority": 298265,
-      "description": "Regionale di Economia Business Istituzioni Ambiente No Profit e Consumo",
-      "category": [
-        "entertainment",
-        "crime",
-        "technology",
-        "health",
-        "business",
-        "environment",
-        "domestic",
-        "tourism",
-        "top",
-        "lifestyle",
-        "other",
-        "politics",
-        "science"
-      ],
-      "language": [
-        "italian"
-      ],
-      "country": [
-        "italy"
-      ],
-      "total_article": 21183,
-      "last_fetch": "2025-10-01 11:17:47"
-    },
-    {
-      "id": "techrepublic",
-      "name": "Techrepublic",
-      "url": "https://www.techrepublic.com",
-      "icon": "https://n.bytvi.com/techrepublic.png",
-      "priority": 8938,
-      "description": "Providing IT professionals with a unique blend of original content, peer-to-peer advice from the largest community of IT leaders on the Web.",
       "category": [
         "politics",
-        "technology",
-        "top",
-        "business"
+        "top"
       ],
-      "language": [
-        "english"
+      "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+      "ai_content": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "duplicate": false
+    },
+    {
+      "article_id": "e33703fa9c41369f194cbeb209c1aaa6",
+      "title": "Scientists find ancient life-size animal rock carvings in the Saudi Arabian desert",
+      "link": "https://www.dailypress.com/2025/09/30/saudi-arabian-desert-ancient-rock-art/",
+      "keywords": [
+        "network",
+        "news",
+        "world news",
+        "history"
       ],
+      "creator": [
+        "Associated Press"
+      ],
+      "description": "The carvings date back around 12,000 years and many are over 6 feet tall.",
+      "content": "ONLY AVAILABLE IN PAID PLANS",
+      "pubDate": "2025-09-30 23:19:13",
+      "pubDateTZ": "UTC",
+      "image_url": "https://www.dailypress.com/wp-content/uploads/2025/09/Ancient_Rock_Art_90864-1.jpg?h=682&w=1024",
+      "video_url": null,
+      "source_id": "dailypress",
+      "source_name": "Daily Press",
+      "source_priority": 29753,
+      "source_url": "https://www.dailypress.com",
+      "source_icon": "https://n.bytvi.com/dailypress.png",
+      "language": "english",
       "country": [
         "united states of america"
       ],
-      "total_article": 9539,
-      "last_fetch": "2025-10-01 09:35:31"
-    },
-    {
-      "id": "jornaldooeste_br",
-      "name": "Jornal do Oeste",
-      "url": "https://www.jornaldooeste.com.br",
-      "icon": "https://n.bytvi.com/jornaldooeste_br.png",
-      "priority": 513417,
-      "description": "Everyone is looking to lose weight these days, but most people miss the one key to just how easy it really is: eating more fiber! While you need protein, healthy fats, and many vitamins and minerals for overall health, the one food that can help you stay fuller longer and keep your weight down is fiber-rich foods",
       "category": [
-        "entertainment",
-        "business",
-        "tourism",
-        "sports",
-        "top",
-        "other",
-        "politics"
-      ],
-      "language": [
-        "portuguese"
-      ],
-      "country": [
-        "brazil"
-      ],
-      "total_article": 11026,
-      "last_fetch": "2025-10-01 09:20:45"
-    },
-    {
-      "id": "chitralekha",
-      "name": "Chitralekha",
-      "url": "https://chitralekha.com",
-      "icon": "https://n.bytvi.com/chitralekha.png",
-      "priority": 969242,
-      "description": "Chitralekha Gujarati is the leading Gujarati magazine since 1950. It has a been a friend, philosopher",
-      "category": [
-        "other",
-        "entertainment",
-        "top"
-      ],
-      "language": [
-        "gujarati"
-      ],
-      "country": [
-        "india"
-      ],
-      "total_article": 8688,
-      "last_fetch": "2025-10-01 11:22:43"
-    },
-    {
-      "id": "arabnet5",
-      "name": "عرب نت 5",
-      "url": "https://www.arabnet5.com",
-      "icon": "https://n.bytvi.com/arabnet5.jpg",
-      "priority": 1067609,
-      "description": "خر-الاخبار-واهم-المستجدات-على-ساحة-مصر-والعالم-اليوم-بالاضافة-إلى-اخبار-المال-والاقتصاد-والبورصة-واسعار-الصرف-ونظرة-على-اخبار-المسلمين-وعلى-الرياضة-المصرية-وال",
-      "category": [
-        "education",
-        "world",
-        "health",
-        "technology",
-        "business",
         "environment",
-        "sports",
-        "top",
-        "other",
-        "politics"
-      ],
-      "language": [
-        "arabic"
-      ],
-      "country": [
-        "egypt"
-      ],
-      "total_article": 23697,
-      "last_fetch": "2025-09-27 08:22:12"
-    },
-    {
-      "id": "eduline",
-      "name": "eduline",
-      "url": "https://eduline.hu",
-      "icon": "https://n.bytvi.com/eduline.png",
-      "priority": 3629383,
-      "description": "",
-      "category": [
         "top"
       ],
-      "language": [
-        "hungarian"
-      ],
-      "country": [
-        "hungary"
-      ],
-      "total_article": 11408,
-      "last_fetch": "2025-10-01 08:58:46"
+      "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+      "ai_content": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "duplicate": true
     },
     {
-      "id": "metroworldnews_br",
-      "name": "Metro World News Brasil",
-      "url": "https://www.metroworldnews.com.br",
-      "icon": "https://n.bytvi.com/metroworldnews_br.png",
-      "priority": 1197268,
-      "description": "Confira notícias e vídeos mais recentes da sua cidade, do Brasil e do mundo, além de informações do cenário econômico, político, cultural e esportivos..",
-      "category": [
-        "entertainment",
-        "top",
-        "lifestyle",
-        "other",
-        "science"
+      "article_id": "66241cacfdbe6a916914f942e6f1f519",
+      "title": "Scientists find ancient life-size animal rock carvings in the Saudi Arabian desert",
+      "link": "https://www.nydailynews.com/2025/09/30/saudi-arabian-desert-ancient-rock-art/",
+      "keywords": [
+        "news",
+        "world news",
+        "network"
       ],
-      "language": [
-        "portuguese"
+      "creator": [
+        "Associated Press"
       ],
-      "country": [
-        "brazil"
-      ],
-      "total_article": 34303,
-      "last_fetch": "2025-10-01 10:54:21"
-    },
-    {
-      "id": "maddyness",
-      "name": "Maddyness",
-      "url": "https://www.maddyness.com",
-      "icon": "https://n.bytvi.com/maddyness.jpg",
-      "priority": 79469,
-      "description": "Toute l'actualité sur l'entrepreneuriat et l'innovation en France. Décryptages, enquêtes, conseils et ressources clés pour mieux comprendre et agir dans l'économie de demain.",
-      "category": [
-        "business",
-        "environment"
-      ],
-      "language": [
-        "french",
-        "english"
-      ],
-      "country": [
-        "united kingdom",
-        "france"
-      ],
-      "total_article": 903,
-      "last_fetch": "2025-10-01 10:12:24"
-    },
-    {
-      "id": "laredmultimedia",
-      "name": "Laredmultimedia",
-      "url": "http://www.grupolareddealtamira.com",
-      "icon": "https://n.bytvi.com/laredmultimedia.png",
-      "priority": 5171652,
-      "description": "Somos la organización periodística de mayor credibilidad en Tamaulipas.",
-      "category": [
-        "entertainment",
-        "world",
-        "health",
-        "technology",
-        "sports",
-        "top",
-        "politics"
-      ],
-      "language": [
-        "spanish"
-      ],
-      "country": [
-        "mexico"
-      ],
-      "total_article": 6660,
-      "last_fetch": "2025-10-01 04:22:07"
-    },
-    {
-      "id": "turks",
-      "name": "Turks",
-      "url": "https://turks.us",
-      "icon": "https://n.bytvi.com/turks.png",
-      "priority": 1552353,
-      "description": "Daily News - Turkish News Portal in English, News and information about Turks and Turkey, Travel, Media, Politics Daily News, World News",
-      "category": [
-        "entertainment",
-        "world",
-        "technology",
-        "business",
-        "sports",
-        "top",
-        "politics"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "turkey"
-      ],
-      "total_article": 11395,
-      "last_fetch": "2025-10-01 09:25:47"
-    },
-    {
-      "id": "agderposten",
-      "name": "Agderposten",
-      "url": "https://www.agderposten.no",
-      "icon": "https://n.bytvi.com/agderposten.png",
-      "priority": 3761477,
-      "description": "Lese nyheter i dag? Agderposten er Aust-Agders ledende nettavis. Vi gir deg nyheter, sport, kultur, underholdning, feature og meninger.",
-      "category": [
-        "top"
-      ],
-      "language": [
-        "norwegian"
-      ],
-      "country": [
-        "norway"
-      ],
-      "total_article": 11062,
-      "last_fetch": "2025-10-01 11:27:09"
-    },
-    {
-      "id": "limaohio",
-      "name": "LimaOhio",
-      "url": "https://www.limaohio.com",
-      "icon": "https://n.bytvi.com/limaohio.jpg",
-      "priority": 945063,
-      "description": "News, Sports, Obituaries, Classifieds, Events and more",
-      "category": [
-        "entertainment",
-        "sports",
-        "top",
-        "lifestyle",
-        "other"
-      ],
-      "language": [
-        "english"
-      ],
+      "description": "The carvings date back around 12,000 years and many are over 6 feet tall.",
+      "content": "ONLY AVAILABLE IN PAID PLANS",
+      "pubDate": "2025-09-30 23:19:13",
+      "pubDateTZ": "UTC",
+      "image_url": "https://www.nydailynews.com/wp-content/uploads/2025/09/Ancient_Rock_Art_90864-1.jpg?strip=all&w=1400px",
+      "video_url": null,
+      "source_id": "nydailynews",
+      "source_name": "New York Daily News",
+      "source_priority": 1670,
+      "source_url": "https://www.nydailynews.com",
+      "source_icon": "https://n.bytvi.com/nydailynews.jpg",
+      "language": "english",
       "country": [
         "united states of america"
       ],
-      "total_article": 8228,
-      "last_fetch": "2025-09-29 10:15:20"
-    },
-    {
-      "id": "livehindustan",
-      "name": "hindustan",
-      "url": "https://www.livehindustan.com",
-      "icon": "https://n.bytvi.com/livehindustan.jpg",
-      "priority": 127332,
-      "description": "विश्व में सबसे तेजी से बढ़ती हुई हिंदी समाचार वेबसाइट है। यह हिंदी समाचारपत्र फ्लैगशिप ब्रांड- हिंदुस्तान की वेबसाइट है, जो हिंदी न्यूज साइटों में सबसे अधिक विश्वसनीय, प्रामाणिक और निष्पक्ष समाचार अपने समर्पित पाठक वर्ग तक पहुंचाती है।",
       "category": [
-        "crime",
-        "world",
-        "health",
-        "technology",
-        "business",
-        "sports",
-        "lifestyle",
-        "other",
-        "politics"
-      ],
-      "language": [
-        "hindi"
-      ],
-      "country": [
-        "india"
-      ],
-      "total_article": 68011,
-      "last_fetch": "2025-10-01 11:43:31"
-    },
-    {
-      "id": "primetimereporters",
-      "name": "Prime Time Reporters",
-      "url": "https://primetimereporters.com",
-      "icon": "https://n.bytvi.com/primetimereporters.png",
-      "priority": 13403084,
-      "description": "Prime Time Reporters &mdash; ...News as it is",
-      "category": [
-        "world",
-        "business",
-        "top",
-        "other",
-        "politics"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "nigeria"
-      ],
-      "total_article": 1012,
-      "last_fetch": "2025-10-01 11:29:03"
-    },
-    {
-      "id": "techradar_sg",
-      "name": "TechRadar Sg",
-      "url": "https://www.techradar.com/sg",
-      "icon": "https://n.bytvi.com/techradar_sg.jpg",
-      "priority": 2159,
-      "description": "The latest technology news and reviews, covering computing, home entertainment systems, gadgets and more",
-      "category": [
-        "entertainment",
-        "health",
-        "technology"
-      ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "singapore"
-      ],
-      "total_article": 2411,
-      "last_fetch": "2025-10-01 11:03:01"
-    },
-    {
-      "id": "ign_fr",
-      "name": "IGN France",
-      "url": "https://fr.ign.com",
-      "icon": "https://n.bytvi.com/ign_fr.png",
-      "priority": 309046,
-      "description": "Retrouvez toute actualité du jeux vidéo et high-tech sur IGN France.",
-      "category": [
-        "other",
-        "entertainment",
-        "technology",
+        "environment",
         "top"
       ],
-      "language": [
-        "french"
-      ],
-      "country": [
-        "france"
-      ],
-      "total_article": 11676,
-      "last_fetch": "2025-10-01 11:18:44"
+      "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+      "ai_content": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "duplicate": true
     },
     {
-      "id": "khaskhabar",
-      "name": "khas khabar",
-      "url": "https://www.khaskhabar.com",
-      "icon": "https://n.bytvi.com/khaskhabar.jpg",
-      "priority": 5174519,
-      "description": "Khaskhabar Is A Online News Portal Whom Provide Latest  Hindi News On Politics, Bollywood, Business, Sports, Education, Career, National, International And Breaking News In Hindi.",
-      "category": [
-        "crime",
-        "entertainment",
-        "technology",
-        "sports",
-        "top",
-        "lifestyle",
-        "other"
+      "article_id": "815b0871515a6bbd01ad8db773ec56a5",
+      "title": "Ladakh: From celebration to restlessness",
+      "link": "https://www.dailyexcelsior.com/ladakh-from-celebration-to-restlessness/",
+      "keywords": [
+        "op-ed"
       ],
-      "language": [
-        "hindi"
+      "creator": [
+        "Daily Excelsior"
       ],
+      "description": "Vijay Hashia vijayhashia@hotmail.com Ladakh, has been a politically quiet Himalayan region compared to its neighbour UT Jammu and Kashmir. It has witnessed far less political unrest and cross border insurgency than the decades of conflict in the Kashmir Valley. Known for its Buddhist monasteries, stark beauty, and the resilience of its people, it has symbolized calm and endurance. To India, Ladakh is not merely a frontier but a vital sentinel of sovereignty, guarding sensitive borders with both China and Pakistan. [...]The post Ladakh: From celebration to restlessness appeared first on Daily Excelsior.",
+      "content": "ONLY AVAILABLE IN PAID PLANS",
+      "pubDate": "2025-09-30 23:15:59",
+      "pubDateTZ": "UTC",
+      "image_url": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2025/09/REST-696x449.jpg",
+      "video_url": null,
+      "source_id": "dailyexcelsior",
+      "source_name": "Daily Excelsior",
+      "source_priority": 693953,
+      "source_url": "https://www.dailyexcelsior.com",
+      "source_icon": "https://n.bytvi.com/dailyexcelsior.png",
+      "language": "english",
       "country": [
         "india"
       ],
-      "total_article": 180145,
-      "last_fetch": "2025-10-01 11:28:19"
+      "category": [
+        "top"
+      ],
+      "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+      "ai_content": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "duplicate": false
     },
     {
-      "id": "baltimoresun",
-      "name": "Baltimore Sun",
-      "url": "https://www.baltimoresun.com",
-      "icon": "https://n.bytvi.com/baltimoresun.jpg",
-      "priority": 227773,
-      "description": "Baltimore Sun: Your source for Baltimore breaking news, sports, business, entertainment, weather and traffic",
-      "category": [
-        "education",
-        "world",
-        "entertainment",
-        "crime",
-        "health",
-        "business",
-        "environment",
-        "domestic",
-        "sports",
-        "top",
-        "lifestyle",
-        "other",
-        "food",
-        "politics"
+      "article_id": "630a5278011b59b1ce3881cb3e77f782",
+      "title": "Schwarzenegger downplays Trump and backs Vatican initiative to ‘terminate’ global warming",
+      "link": "https://www.bostonherald.com/2025/09/30/schwarzenegger-vatican-climate/",
+      "keywords": [
+        "religion",
+        "news",
+        "climate change",
+        "network",
+        "world news"
       ],
-      "language": [
-        "english"
+      "creator": [
+        "Associated Press"
       ],
+      "description": "Schwarzenegger was at the Vatican to headline a three-day climate conference.",
+      "content": "ONLY AVAILABLE IN PAID PLANS",
+      "pubDate": "2025-09-30 23:10:01",
+      "pubDateTZ": "UTC",
+      "image_url": "https://www.bostonherald.com/wp-content/uploads/2025/09/Vatican_Climate_26042.jpg?strip=all&w=1400px",
+      "video_url": null,
+      "source_id": "bostonherald",
+      "source_name": "Boston Herald",
+      "source_priority": 9319,
+      "source_url": "https://www.bostonherald.com",
+      "source_icon": "https://n.bytvi.com/bostonherald.jpg",
+      "language": "english",
       "country": [
         "united states of america"
       ],
-      "total_article": 42271,
-      "last_fetch": "2025-10-01 11:16:41"
-    },
-    {
-      "id": "cambodiadailyen",
-      "name": "The Cambodia Daily",
-      "url": "https://english.cambodiadaily.com",
-      "icon": "https://n.bytvi.com/cambodiadailyen.jpg",
-      "priority": 1907288,
-      "description": "The Cambodia Daily is Cambodia&#039;s newspaper of record published six days a week since 1993.",
       "category": [
-        "entertainment",
-        "business",
-        "environment",
-        "top",
         "politics"
       ],
-      "language": [
-        "english"
-      ],
-      "country": [
-        "cambodia"
-      ],
-      "total_article": 2106,
-      "last_fetch": "2025-10-01 10:55:06"
-    },
-    {
-      "id": "maliweb",
-      "name": "maliweb.net",
-      "url": "https://www.maliweb.net",
-      "icon": "https://n.bytvi.com/maliweb.png",
-      "priority": 623338,
-      "description": "maliweb.net - Premier site d'info | Portail de référence au Mali depuis 2002. Actualité et infos maliennes en continu: Sports, Faits Divers, Politique, Rad",
-      "category": [
-        "world",
-        "business",
-        "sports",
-        "top",
-        "politics"
-      ],
-      "language": [
-        "french"
-      ],
-      "country": [
-        "mali"
-      ],
-      "total_article": 26649,
-      "last_fetch": "2025-10-01 11:21:07"
+      "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+      "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+      "ai_content": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+      "duplicate": true
     }
   ],
-  "nextPage": null
+  "nextPage": "1759273801848109808"
 }
