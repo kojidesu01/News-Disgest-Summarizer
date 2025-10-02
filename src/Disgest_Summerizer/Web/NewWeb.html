@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsFlow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+        
+        .nav-link {
+            transition: color 0.2s ease;
+        }
+        
+        .nav-link:hover {
+            color: #3b82f6;
+        }
+        
+        .interaction-btn {
+            transition: all 0.2s ease;
+        }
+        
+        .interaction-btn:hover {
+            color: #3b82f6;
+            transform: scale(1.1);
+        }
+        
+        .search-input {
+            transition: all 0.3s ease;
+        }
+        
+        .search-input:focus {
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <h1 class="text-2xl font-bold text-blue-400">NewsFlow</h1>
+                </div>
+                
+                <!-- Categories -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#" class="nav-link text-white hover:text-blue-400 px-3 py-2 text-sm font-medium">News</a>
+                        <a href="#" class="nav-link text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium">Entertainment</a>
+                        <a href="#" class="nav-link text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium">Technology</a>
+                        <a href="#" class="nav-link text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium">Travel</a>
+                        <a href="#" class="nav-link text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium">Food</a>
+                        <a href="#" class="nav-link text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium">Sports</a>
+                        <a href="#" class="nav-link text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium">TV</a>
+                    </div>
+                </div>
+                
+                <!-- Search and Auth -->
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <input type="text" placeholder="Search..." class="search-input bg-gray-700 text-white px-4 py-2 rounded-lg w-64 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <i class="fas fa-search absolute right-3 top-3 text-gray-400"></i>
+                    </div>
+                    <button class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-medium transition-colors">Login</button>
+                    <button class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg text-sm font-medium transition-colors">Sign Up</button>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-gray-400 hover:text-white">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- News Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- News Card 1 -->
+            <article class="card-hover bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                <div class="p-4">
+                    <!-- Publisher Logo -->
+                    <div class="flex items-center mb-3">
+                        <div class="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center text-xs font-bold">CNN</div>
+                        <span class="ml-2 text-xs text-gray-400">CNN News</span>
+                    </div>
+                    
+                    <!-- Featured Image -->
+                    <div class="w-full h-48 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg mb-4 flex items-center justify-center">
+                        <i class="fas fa-image text-4xl text-white opacity-50"></i>
+                    </div>
+                    
+                    <!-- Headline -->
+                    <h3 class="text-lg font-semibold mb-3 line-clamp-3 leading-tight">Breaking: Major Technology Breakthrough Changes Everything We Know About Computing</h3>
+                    
+                    <!-- Author -->
+                    <p class="text-sm text-gray-400 mb-4">By Sarah Johnson</p>
+                    
+                    <!-- Interaction Icons -->
+                    <div class="flex items-center justify-between text-gray-400 text-sm">
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-heart"></i>
+                            <span>124</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-comment"></i>
+                            <span>32</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-bookmark"></i>
+                            <span>Save</span>
+                        </button>
+                        <button class="interaction-btn">
+                            <i class="fas fa-share"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- News Card 2 -->
+            <article class="card-hover bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                <div class="p-4">
+                    <div class="flex items-center mb-3">
+                        <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-xs font-bold">TC</div>
+                        <span class="ml-2 text-xs text-gray-400">TechCrunch</span>
+                    </div>
+                    
+                    <div class="w-full h-48 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg mb-4 flex items-center justify-center">
+                        <i class="fas fa-laptop text-4xl text-white opacity-50"></i>
+                    </div>
+                    
+                    <h3 class="text-lg font-semibold mb-3 line-clamp-3 leading-tight">Startup Raises $50M to Revolutionize Remote Work Experience</h3>
+                    
+                    <p class="text-sm text-gray-400 mb-4">By Mike Chen</p>
+                    
+                    <div class="flex items-center justify-between text-gray-400 text-sm">
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-heart"></i>
+                            <span>89</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-comment"></i>
+                            <span>15</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-bookmark"></i>
+                            <span>Save</span>
+                        </button>
+                        <button class="interaction-btn">
+                            <i class="fas fa-share"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- News Card 3 -->
+            <article class="card-hover bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                <div class="p-4">
+                    <div class="flex items-center mb-3">
+                        <div class="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center text-xs font-bold">BBC</div>
+                        <span class="ml-2 text-xs text-gray-400">BBC World</span>
+                    </div>
+                    
+                    <div class="w-full h-48 bg-gradient-to-br from-purple-500 to-pink-600 rounded-lg mb-4 flex items-center justify-center">
+                        <i class="fas fa-globe text-4xl text-white opacity-50"></i>
+                    </div>
+                    
+                    <h3 class="text-lg font-semibold mb-3 line-clamp-3 leading-tight">Climate Summit Reaches Historic Agreement on Carbon Emissions</h3>
+                    
+                    <p class="text-sm text-gray-400 mb-4">By Emma Wilson</p>
+                    
+                    <div class="flex items-center justify-between text-gray-400 text-sm">
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-heart"></i>
+                            <span>256</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-comment"></i>
+                            <span>78</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-bookmark"></i>
+                            <span>Save</span>
+                        </button>
+                        <button class="interaction-btn">
+                            <i class="fas fa-share"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- News Card 4 -->
+            <article class="card-hover bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                <div class="p-4">
+                    <div class="flex items-center mb-3">
+                        <div class="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center text-xs font-bold">ESPN</div>
+                        <span class="ml-2 text-xs text-gray-400">ESPN Sports</span>
+                    </div>
+                    
+                    <div class="w-full h-48 bg-gradient-to-br from-orange-500 to-red-600 rounded-lg mb-4 flex items-center justify-center">
+                        <i class="fas fa-football-ball text-4xl text-white opacity-50"></i>
+                    </div>
+                    
+                    <h3 class="text-lg font-semibold mb-3 line-clamp-3 leading-tight">Championship Finals Set Record Viewership Numbers Worldwide</h3>
+                    
+                    <p class="text-sm text-gray-400 mb-4">By David Martinez</p>
+                    
+                    <div class="flex items-center justify-between text-gray-400 text-sm">
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-heart"></i>
+                            <span>342</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-comment"></i>
+                            <span>95</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-bookmark"></i>
+                            <span>Save</span>
+                        </button>
+                        <button class="interaction-btn">
+                            <i class="fas fa-share"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- News Card 5 -->
+            <article class="card-hover bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                <div class="p-4">
+                    <div class="flex items-center mb-3">
+                        <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-xs font-bold">NYT</div>
+                        <span class="ml-2 text-xs text-gray-400">NY Times</span>
+                    </div>
+                    
+                    <div class="w-full h-48 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg mb-4 flex items-center justify-center">
+                        <i class="fas fa-city text-4xl text-white opacity-50"></i>
+                    </div>
+                    
+                    <h3 class="text-lg font-semibold mb-3 line-clamp-3 leading-tight">Urban Planning Revolution: Smart Cities Lead the Future</h3>
+                    
+                    <p class="text-sm text-gray-400 mb-4">By Lisa Thompson</p>
+                    
+                    <div class="flex items-center justify-between text-gray-400 text-sm">
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-heart"></i>
+                            <span>167</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-comment"></i>
+                            <span>43</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-bookmark"></i>
+                            <span>Save</span>
+                        </button>
+                        <button class="interaction-btn">
+                            <i class="fas fa-share"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- News Card 6 -->
+            <article class="card-hover bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                <div class="p-4">
+                    <div class="flex items-center mb-3">
+                        <div class="w-8 h-8 bg-yellow-600 rounded-full flex items-center justify-center text-xs font-bold">NG</div>
+                        <span class="ml-2 text-xs text-gray-400">Nat Geo</span>
+                    </div>
+                    
+                    <div class="w-full h-48 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-lg mb-4 flex items-center justify-center">
+                        <i class="fas fa-mountain text-4xl text-white opacity-50"></i>
+                    </div>
+                    
+                    <h3 class="text-lg font-semibold mb-3 line-clamp-3 leading-tight">New Species Discovered in Remote Amazon Rainforest</h3>
+                    
+                    <p class="text-sm text-gray-400 mb-4">By Dr. Maria Santos</p>
+                    
+                    <div class="flex items-center justify-between text-gray-400 text-sm">
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-heart"></i>
+                            <span>203</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-comment"></i>
+                            <span>67</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-bookmark"></i>
+                            <span>Save</span>
+                        </button>
+                        <button class="interaction-btn">
+                            <i class="fas fa-share"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- News Card 7 -->
+            <article class="card-hover bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                <div class="p-4">
+                    <div class="flex items-center mb-3">
+                        <div class="w-8 h-8 bg-pink-600 rounded-full flex items-center justify-center text-xs font-bold">V</div>
+                        <span class="ml-2 text-xs text-gray-400">Variety</span>
+                    </div>
+                    
+                    <div class="w-full h-48 bg-gradient-to-br from-pink-500 to-purple-600 rounded-lg mb-4 flex items-center justify-center">
+                        <i class="fas fa-film text-4xl text-white opacity-50"></i>
+                    </div>
+                    
+                    <h3 class="text-lg font-semibold mb-3 line-clamp-3 leading-tight">Hollywood Blockbuster Breaks Opening Weekend Records</h3>
+                    
+                    <p class="text-sm text-gray-400 mb-4">By James Rodriguez</p>
+                    
+                    <div class="flex items-center justify-between text-gray-400 text-sm">
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-heart"></i>
+                            <span>445</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-comment"></i>
+                            <span>128</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-bookmark"></i>
+                            <span>Save</span>
+                        </button>
+                        <button class="interaction-btn">
+                            <i class="fas fa-share"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- News Card 8 -->
+            <article class="card-hover bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                <div class="p-4">
+                    <div class="flex items-center mb-3">
+                        <div class="w-8 h-8 bg-teal-600 rounded-full flex items-center justify-center text-xs font-bold">FT</div>
+                        <span class="ml-2 text-xs text-gray-400">Food & Travel</span>
+                    </div>
+                    
+                    <div class="w-full h-48 bg-gradient-to-br from-teal-500 to-green-600 rounded-lg mb-4 flex items-center justify-center">
+                        <i class="fas fa-utensils text-4xl text-white opacity-50"></i>
+                    </div>
+                    
+                    <h3 class="text-lg font-semibold mb-3 line-clamp-3 leading-tight">Michelin Guide Announces New Three-Star Restaurants</h3>
+                    
+                    <p class="text-sm text-gray-400 mb-4">By Chef Antoine Dubois</p>
+                    
+                    <div class="flex items-center justify-between text-gray-400 text-sm">
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-heart"></i>
+                            <span>178</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-comment"></i>
+                            <span>54</span>
+                        </button>
+                        <button class="interaction-btn flex items-center space-x-1">
+                            <i class="far fa-bookmark"></i>
+                            <span>Save</span>
+                        </button>
+                        <button class="interaction-btn">
+                            <i class="fas fa-share"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <script>
+        // Add interactive functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Handle like buttons
+            const likeButtons = document.querySelectorAll('.interaction-btn');
+            likeButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const icon = this.querySelector('i');
+                    if (icon && icon.classList.contains('fa-heart')) {
+                        if (icon.classList.contains('far')) {
+                            icon.classList.remove('far');
+                            icon.classList.add('fas');
+                            icon.style.color = '#ef4444';
+                            const count = this.querySelector('span');
+                            if (count) {
+                                count.textContent = parseInt(count.textContent) + 1;
+                            }
+                        } else {
+                            icon.classList.remove('fas');
+                            icon.classList.add('far');
+                            icon.style.color = '';
+                            const count = this.querySelector('span');
+                            if (count) {
+                                count.textContent = parseInt(count.textContent) - 1;
+                            }
+                        }
+                    }
+                });
+            });
+
+            // Handle bookmark buttons
+            const bookmarkButtons = document.querySelectorAll('.interaction-btn');
+            bookmarkButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const icon = this.querySelector('i');
+                    if (icon && icon.classList.contains('fa-bookmark')) {
+                        if (icon.classList.contains('far')) {
+                            icon.classList.remove('far');
+                            icon.classList.add('fas');
+                            icon.style.color = '#3b82f6';
+                            const text = this.querySelector('span');
+                            if (text) text.textContent = 'Saved';
+                        } else {
+                            icon.classList.remove('fas');
+                            icon.classList.add('far');
+                            icon.style.color = '';
+                            const text = this.querySelector('span');
+                            if (text) text.textContent = 'Save';
+                        }
+                    }
+                });
+            });
+
+            // Search functionality
+            const searchInput = document.querySelector('.search-input');
+            searchInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    alert(`Searching for: ${this.value}`);
+                }
+            });
+
+            // Category navigation
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    navLinks.forEach(l => l.classList.remove('text-white'));
+                    navLinks.forEach(l => l.classList.add('text-gray-300'));
+                    this.classList.remove('text-gray-300');
+                    this.classList.add('text-white');
+                });
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'988360aae382d334',t:'MTc1OTM5OTQ4Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
