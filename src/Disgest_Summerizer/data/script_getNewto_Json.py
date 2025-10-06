@@ -1,37 +1,34 @@
 import requests
 import json
-import os
+import datetime
 
-url = f"https://newsdata.io/api/1/latest?apikey=pub_2faf079e890947eda13836e421edb044&q=nepal"
+# 📰 ตั้งค่า API
+api_key = "d3356e6e783319a0e277a3b83962d0a6"
+category = "entertainment"  # หมวดข่าว เช่น: world, business, technology, sports, etc.
+language = "en"
+max_results = 6  # จำนวนข่าวสูงสุดที่จะดึงมา
 
+# 🔗 URL API
+url = f"https://gnews.io/api/v4/top-headlines?token={api_key}&topic={category}&lang={language}&max={max_results}"
+
+# 📡 ดึงข้อมูลจาก API
 response = requests.get(url)
 data = response.json()
 
-if data.get("status") == "success":
-    new_results = data.get("results", [])
+if response.status_code == 200:
+    articles = data.get("articles", [])
+    print(f"✅ ได้ข่าวทั้งหมด {len(articles)} ข่าว")
 
-    # โหลดข่าวเก่าจากไฟล์ ถ้ามีอยู่
-    if os.path.exists("News.json"):
-        with open("News.json", "r", encoding="utf-8") as f:
-            try:
-                old_data = json.load(f)
-                old_results = old_data.get("results", [])
-            except json.JSONDecodeError:
-                old_results = []
-    else:
-        old_results = []
+    # 🕒 ตั้งชื่อไฟล์ใหม่ทุกครั้งตามวันเวลา (เช่น News_2025-10-05_1930.json)
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    filename = f"News_{category}_{timestamp}.json"
 
-    # สร้างเซตของลิงก์ข่าวเก่า เพื่อใช้ตรวจสอบความซ้ำ
-    existing_links = set(article.get("link") for article in old_results if article.get("link"))
+    # 💾 บันทึกข่าวลงไฟล์ใหม่
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump({"articles": articles}, f, ensure_ascii=False, indent=2)
 
-    # คัดข่าวใหม่ที่ไม่ซ้ำ
-    unique_new_results = [article for article in new_results if article.get("link") not in existing_links]
+    print(f"💾 สร้างไฟล์ใหม่ชื่อ {filename} เรียบร้อยแล้ว")
 
-    # รวมข่าวทั้งหมด
-    combined_results = old_results + unique_new_results
-
-    # เขียนกลับลงไฟล์
-
-    with open("News1.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
+else:
+    print(f"❌ ดึงข้อมูลล้มเหลว (HTTP {response.status_code})")
+    print("ข้อความตอบกลับ:", data)
