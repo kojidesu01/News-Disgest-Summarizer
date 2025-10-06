@@ -391,12 +391,14 @@
             document.getElementById('article-view').classList.add('hidden'); 
 
             try {
-                console.log('📡 Fetching data from ../data/DataNews.json');
-                // ใช้เวลาจำลองการโหลด
-                await new Promise(resolve => setTimeout(resolve, 1000)); 
+                console.log('📡 Fetching data from Python API...');
                 
-                const response = await fetch('../data/DataNews.json');
-                if (!response.ok) throw new Error('❌ Failed to fetch DataNews.json');
+                // ⭐ เปลี่ยน URL นี้ให้ชี้ไปยัง Flask API Server
+                const API_URL = 'http://127.0.0.1:5000/api/articles'; 
+                
+                // ใช้ API URL ใหม่ในการดึงข้อมูล
+                const response = await fetch(API_URL); 
+                if (!response.ok) throw new Error(`❌ Failed to fetch API: ${response.status}`);
 
                 const jsonData = await response.json();
                 const rawArticles = jsonData.articles || jsonData; 
