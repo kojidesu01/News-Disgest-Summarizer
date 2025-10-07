@@ -6,3 +6,4 @@ transformers>=4.45.0
 torch>=2.3.0
 sentencepiece>=0.2.0
 huggingface-hub>=0.23.0
+pytest>=8.0.0
