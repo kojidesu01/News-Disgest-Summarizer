@@ -1,8 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import sqlite3
-
-# ... (โค้ด Flask และฟังก์ชัน dict_factory เดิม) ...
+    
 # *************use python app.py run server python flask******************
 app = Flask(__name__)
 CORS(app) 
@@ -39,22 +38,23 @@ def get_articles():
             'id': article['id'],
             'title': article['title'],
             'author': article['author'],
-            # นี่คือส่วนสำคัญที่จัดโครงสร้าง source ใหม่ให้ตรงกับ JS
             'source': {'name': article['source_name']}, 
             'image': article['image'],
             'url': article['url'],
             'publishedAt': article['publishedAt'],
             'content': article['content'],
+            # ✅ ดึงค่า summary ที่แคชไว้จาก DB โดยตรง
+            'summary': article['summary'] if article.get('summary') else 'Summary not available.', 
             'likes': article['likes'],
             'comments': article['comments'],
             'shares': article['shares'],
             'saved': bool(article['saved']),
             'category': article['category'],
         }
-        for article in articles
+        for article in articles # List Comprehension จะวนลูปเองอัตโนมัติ
     ]
     
-    return jsonify({"articles": formatted_articles}) 
+    return jsonify({"articles": formatted_articles})
 print("--- Attempting to start Flask Server ---") 
 
 if __name__ == '__main__':

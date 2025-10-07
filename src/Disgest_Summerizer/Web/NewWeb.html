@@ -391,19 +391,19 @@
             document.getElementById('article-view').classList.add('hidden'); 
 
             try {
-                console.log('📡 Fetching data from Python API...');
+                console.log('Fetching data from Python API...');
                 
-                // ⭐ เปลี่ยน URL นี้ให้ชี้ไปยัง Flask API Server
+                // Flask API Server
                 const API_URL = 'http://127.0.0.1:5000/api/articles'; 
                 
-                // ใช้ API URL ใหม่ในการดึงข้อมูล
+                // ใช้ API URL ในการดึงข้อมูล
                 const response = await fetch(API_URL); 
                 if (!response.ok) throw new Error(`❌ Failed to fetch API: ${response.status}`);
 
                 const jsonData = await response.json();
                 const rawArticles = jsonData.articles || jsonData; 
 
-                // ✅ แปลงโครงสร้างและเพิ่มค่าเริ่มต้น
+                //แปลงโครงสร้างและเพิ่มค่าเริ่มต้น
                 allArticles = rawArticles.map((item) => ({
                     id: item.id || crypto.randomUUID(),
                     title: item.title || 'Untitled',
@@ -414,6 +414,7 @@
                     publishedAt: item.publishedAt || new Date().toISOString(),
                     // ใช้ description เป็น content สำรอง ถ้าไม่มี content
                     content: item.content || item.description || 'No content available. Click "Read Full Article" to view on external site.', 
+                    summary: item.summary || 'No summary data',
                     likes: Math.floor(Math.random() * 1000),
                     comments: Math.floor(Math.random() * 100),
                     shares: Math.floor(Math.random() * 50),
@@ -458,7 +459,7 @@
                         ${article.source.charAt(0).toUpperCase()}
                     </div>
                 </div>
-                <p class="text-xl text-gray-300 leading-relaxed mb-8">${article.content}</p>
+                <p class="text-xl text-gray-300 leading-relaxed mb-8">${article.summary}</p>
                 <div class="flex justify-between items-center pt-4 border-t border-white/10">
                     <a href="${article.url}" target="_blank" rel="noopener noreferrer"
                         class="inline-flex items-center space-x-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 px-6 py-3 rounded-xl font-semibold transition-transform hover:scale-105 shadow-lg">
