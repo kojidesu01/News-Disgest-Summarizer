@@ -1,5 +1,8 @@
 import os
 import sqlite3
+import threading
+import webbrowser
+from pathlib import Path
 from flask import Flask, jsonify, request, current_app
 from flask_cors import CORS
 
@@ -78,5 +81,20 @@ def create_app(test_config=None):
 app = create_app()
 print("--- Attempting to start Flask Server ---")
 
+
+def open_frontend():
+    """Open the frontend HTML file in the default browser once the server is up."""
+    frontend_path = Path(__file__).resolve().parent / "Web" / "NewWeb.html"
+    if frontend_path.exists():
+        webbrowser.open_new_tab(frontend_path.as_uri())
+    else:
+        print(f"--- Frontend file not found at {frontend_path} ---")
+
+
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    debug_mode = True
+    if os.environ.get("WERKZEUG_RUN_MAIN") == "true" or not debug_mode:
+        timer = threading.Timer(1.0, open_frontend)
+        timer.daemon = True
+        timer.start()
+    app.run(debug=debug_mode, port=5000)
