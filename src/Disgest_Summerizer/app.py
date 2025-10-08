@@ -74,6 +74,13 @@ def create_app(test_config=None):
         ]
 
         return jsonify({"articles": formatted_articles})
+    
+    from flask import send_from_directory
+
+    @app.route('/')
+    def serve_frontend():
+        web_dir = Path(__file__).resolve().parent / "Web"
+        return send_from_directory(web_dir, "NewWeb.html")
 
     return app
 
