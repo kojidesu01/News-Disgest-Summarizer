@@ -4,6 +4,11 @@
 
 ---
 
+## Project walkthrough video :
+Link : https://drive.google.com/file/d/1XWelyt957LnPKjXjMN2QxgFnhA-lfhhC/view?usp=drive_link
+
+---
+
 ## 🌍 Live Demo  
 🔗 **[https://news-digest-summarizer.onrender.com](https://news-digest-summarizer.onrender.com)**  
 📰 Try the API: [https://news-digest-summarizer.onrender.com/api/articles](https://news-digest-summarizer.onrender.com/api/articles)
