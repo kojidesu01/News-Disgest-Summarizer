@@ -99,14 +99,20 @@ def open_frontend():
 
 
 if __name__ == '__main__':
-    # อ่านพอร์ตจาก environment variable ที่ Render ส่งมา (หรือใช้ 5000 ตอนรันในเครื่อง)
+    import os, threading
+    from pathlib import Path
+
     port = int(os.environ.get("PORT", 5000))
 
-    # เปิดหน้าเว็บเฉพาะตอนรันในเครื่อง ไม่เปิดตอนอยู่บน Render
+    # เปิดหน้าเว็บเฉพาะตอนรันในเครื่อง
     if not os.environ.get("RENDER"):
+        def open_frontend():
+            web_path = Path(__file__).resolve().parent / "Web" / "NewWeb.html"
+            import webbrowser
+            if web_path.exists():
+                webbrowser.open_new_tab(web_path.as_uri())
         timer = threading.Timer(1.0, open_frontend)
         timer.daemon = True
         timer.start()
 
-    # รัน Flask บน host 0.0.0.0 เพื่อให้ Render เข้าถึงได้
     app.run(host='0.0.0.0', port=port, debug=False, use_reloader=False)
