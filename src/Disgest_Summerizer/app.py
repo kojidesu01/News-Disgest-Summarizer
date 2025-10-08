@@ -23,7 +23,7 @@ def get_db_connection(db_path):
 
 
 def create_app(test_config=None):
-    app = Flask(__name__, template_folder="Web")
+    app = Flask(__name__, static_folder="Web", static_url_path="")
     CORS(app)
 
     default_db_path = os.path.join(os.path.dirname(__file__), DEFAULT_DB_NAME)
