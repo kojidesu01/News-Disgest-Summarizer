@@ -26,11 +26,19 @@ def create_app(test_config=None):
     app = Flask(__name__, static_folder="Web", static_url_path="")
     CORS(app)
 
-    default_db_path = os.path.join(os.path.dirname(__file__), DEFAULT_DB_NAME)
-    env_db_path = os.getenv("NEWS_DB_PATH")
-    if env_db_path:
-        default_db_path = env_db_path
-    app.config["DB_PATH"] = default_db_path
+    # ตั้ง path DB ตามลำดับความสำคัญ
+    # 1️⃣ ถ้ามี ENV (Render จะตั้งอัตโนมัติ) → ใช้
+    # 2️⃣ ถ้าไม่มี ENV → ใช้ path ในเครื่องของคุณ
+    env_db_path = os.getenv(
+        "NEWS_DB_PATH",
+        r"D:\PROJECT\News-Disgest-Summarizer\src\Disgest_Summerizer\news_articles.db"
+    )
+
+    # ตั้งค่า path ให้ Flask ใช้งาน
+    app.config["DB_PATH"] = env_db_path
+
+    # Debug log ตอนเริ่มต้น (จะเห็นใน console หรือ Render logs)
+    print(f"[BOOT] Using DB_PATH = {env_db_path} | exists = {os.path.exists(env_db_path)}")
 
     if test_config:
         app.config.update(test_config)
