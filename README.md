@@ -1,124 +1,86 @@
-﻿# 🗞️ News Digest Summarizer
+# News Digest Summarizer
 
-> “Read less, know more.” — AI-powered news digest app that fetches, summarizes, and serves trending headlines in seconds.
-
----
-
-## Project walkthrough video :
-Link : https://drive.google.com/file/d/1XWelyt957LnPKjXjMN2QxgFnhA-lfhhC/view?usp=drive_link
+An AI-assisted news digest that fetches articles, generates summaries, stores them in SQLite, and serves them through a Flask API with a Tailwind-based front-end.
 
 ---
 
-## 🌍 Live Demo  
-🔗 **[https://news-digest-summarizer.onrender.com](https://news-digest-summarizer.onrender.com)**  
-📰 Try the API: [https://news-digest-summarizer.onrender.com/api/articles](https://news-digest-summarizer.onrender.com/api/articles)
+## Live Demo
+- Web app: https://news-disgest-summarizer.onrender.com
 
 ---
 
-## 📖 Overview
-**News Digest Summarizer** automatically collects breaking news, extracts full text, and summarizes it with a **Hugging Face AI model**.  
-The summarized results are stored in **SQLite** and exposed through a lightweight **Flask API**, with a built-in static front-end for demo use.
+## Key Features
+- Automated pipeline: scrape -> summarize (Hugging Face `distilbart-cnn-12-6`) -> persist -> serve
+- Flask API (`/api/articles`) with optional `category` filtering
+- Built-in responsive front-end (`src/Disgest_Summerizer/Web/NewWeb.html`)
+- Ready-to-run Docker image and Render deployment setup
+- SQLite database (`news_articles.db`) bundled for quick demos
 
 ---
 
-## ✨ Features
-
-✅ **End-to-end pipeline** — Fetch → Scrape → Summarize → Store → Serve  
-✅ **Flask REST API** with JSON output and category filtering  
-✅ **SQLite database** for persistence (portable, easy to deploy)  
-✅ **Hugging Face Summarization Model** (`distilbart-cnn-12-6`)  
-✅ **Front-end HTML demo** (`Web/NewWeb.html`)  
-✅ **Docker + Render deployment ready**
-
----
-
-## 🧩 Project Structure
-```bash
-News-Digest-Summarizer/
-├── src/
-│   └── Disgest_Summerizer/
-│       ├── app.py                # Flask app exposing /api/articles and serving HTML
-│       ├── news_articles.db      # SQLite database with summarized news
-│       ├── data/
-│       │   ├── DataNews.json
-│       │   ├── DataNews_source.py
-│       │   ├── Web_Scraping_script.py
-│       │   └── script_getNewto_Json.py
-│       └── Web/
-│           └── NewWeb.html       # Static demo webpage
-├── tests/                        # Pytest test suite
-├── Dockerfile
-├── requirements.txt
-└── README.md
-```
+## Project Structure
+- `src/Disgest_Summerizer/app.py` - Flask app and API routes
+- `src/Disgest_Summerizer/news_articles.db` - bundled SQLite database
+- `src/Disgest_Summerizer/data/` - scraping and summarisation scripts
+- `src/Disgest_Summerizer/Web/NewWeb.html` - static front-end
+- `tests/` - pytest suite
+- `Dockerfile`, `requirements.txt`, `README.md`
 
 ---
 
-## ⚙️ Installation & Setup
+## Getting Started
 
-### 🔹 Requirements
-- Python ≥ 3.10  
-- pip package manager  
-- Internet connection (first run only, to download model)  
-- Optional — [GNews API](https://gnews.io/) token for live fetch
+### Prerequisites
+- Python 3.10 or newer
+- pip
+- (Optional) virtualenv or venv
 
-### 🔹 Installation
+### Installation
 ```bash
 git clone https://github.com/<your-repo>/News-Digest-Summarizer.git
 cd News-Digest-Summarizer
 python -m venv .venv
-source .venv/bin/activate      # macOS/Linux
-.venv\Scripts\activate         # Windows
+.venv\Scripts\activate           # Windows
+# source .venv/bin/activate      # macOS/Linux
 pip install -r requirements.txt
 ```
 
----
-
-## ▶️ Run Locally
-
+### Run Locally
 ```bash
 python src/Disgest_Summerizer/app.py
 ```
+Visit http://127.0.0.1:5000 for the front-end, or http://127.0.0.1:5000/api/articles for raw JSON.
 
-Visit 👉 [http://127.0.0.1:5000/api/articles](http://127.0.0.1:5000/api/articles)  
-or open the front-end 👉 `src/Disgest_Summerizer/Web/NewWeb.html`
-
-> The app automatically loads `news_articles.db` in the same folder.  
-> Set a custom path with the environment variable `NEWS_DB_PATH`.
+The app reads `NEWS_DB_PATH` (defaults to `/app/src/Disgest_Summerizer/news_articles.db` inside Docker or the relative path when running locally). Set a custom path if you mount a different database.
 
 ---
 
-## 🔁 Refresh Dataset
+## Updating the Dataset
+1. Fetch fresh headlines:  
+   `python src/Disgest_Summerizer/data/script_getNewto_Json.py`
+2. Summarise and rebuild SQLite:  
+   `python src/Disgest_Summerizer/data/DataNews_source.py`
 
-### 📰 1. Fetch new headlines  
-```bash
-python src/Disgest_Summerizer/data/script_getNewto_Json.py
-```
-
-### 🧠 2. Summarize & rebuild database  
-```bash
-python src/Disgest_Summerizer/data/DataNews_source.py
-```
-
-🕐 Takes a few minutes — downloads articles, runs summarization, and stores them in SQLite.
+The generated records are inserted into `news_articles.db` and will be served automatically on next start.
 
 ---
 
-## 🧠 API Reference
+## API Reference
 
-### `GET /api/articles`
-Return a list of summarized news articles.
+### GET `/api/articles`
+Returns all articles (latest first by default).
 
-| Parameter | Type | Default | Description |
-|------------|------|----------|-------------|
-| `category` | str  | all      | Filter by category (`technology`, `sports`, etc.) |
+Query params:
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| `category` | string | `all` | Filter by category (e.g. `technology`, `sports`) |
 
-**Example Response**
+Example response:
 ```json
 {
   "articles": [
     {
-      "id": 1,
+      "id": "d3d9...",
       "title": "AI Breakthrough in 2025",
       "source": {"name": "TechCrunch"},
       "summary": "AI model achieves new milestone...",
@@ -131,17 +93,10 @@ Return a list of summarized news articles.
 
 ---
 
-## 🧪 Testing
-Run all unit tests with **pytest**:
-```bash
-pytest
-```
-Tests include API responses, category filtering, and SQLite integration.
+## Docker Workflow
+The Dockerfile uses a two-stage build. Torch wheels are pulled from the official CPU index to avoid long compile times.
 
----
-
-## 🐳 Docker (Optional)
-Build & run the service in a container:
+Build and run:
 ```bash
 docker build -t news-digest .
 docker run --rm -p 5000:5000 news-digest
@@ -149,82 +104,51 @@ docker run --rm -p 5000:5000 news-digest
 
 Mount a custom database:
 ```bash
-docker run --rm -p 5000:5000   -e NEWS_DB_PATH=/data/news_articles.db   -v $(pwd)/news_articles.db:/data/news_articles.db   news-digest
+docker run --rm -p 5000:5000 ^
+  -e NEWS_DB_PATH=/data/news_articles.db ^
+  -v %cd%\\news_articles.db:/data/news_articles.db ^
+  news-digest
 ```
 
----
-
-## 🌐 Deploy on Render
-
-1. Push to GitHub  
-2. Create a **Render Web Service**  
-3. Build Command → `pip install -r requirements.txt`  
-4. Start Command → `python src/Disgest_Summerizer/app.py`  
-5. Add Environment Variable  
-   ```
-   KEY: NEWS_DB_PATH
-   VALUE: /opt/render/project/src/src/Disgest_Summerizer/news_articles.db
-   ```
-6. Wait for “✅ Live” → Open your public URL!
+Linux/macOS replace the caret lines with `\` and `%cd%` with `$(pwd)`.
 
 ---
 
-## 💻 Front-End Demo
-- Uses vanilla JS to fetch from `/api/articles`  
-- Dynamic category filter + instant rendering  
-- Works with any Flask endpoint or hosted API URL  
+## Render Deployment Notes
+1. Push to GitHub (or connect repo directly).
+2. Create a Render Web Service pointing to the repo root.
+3. Build command: `docker build -t news-digest .` (Render autodetects Dockerfile).
+4. Start command (matching Docker CMD): `python src/Disgest_Summerizer/app.py`
+5. Environment variables:
+   - `NEWS_DB_PATH=/app/src/Disgest_Summerizer/news_articles.db` (for free tier without persistent disk)
+   - Render supplies `PORT`; no need to set manually.
+6. Redeploy. Logs show `[BOOT] Using DB_PATH = ... | exists = True` when the database is detected.
 
-To preview:
+If you upgrade to a plan with persistent disk, mount it (for example `/var/data/news_articles.db`) and copy the bundled DB there at startup before launching the app.
+
+---
+
+## Testing
+Run the pytest suite:
 ```bash
-open src/Disgest_Summerizer/Web/NewWeb.html
+pytest
 ```
 
 ---
 
-## 🧰 Troubleshooting
-
-| Problem | Solution |
-|----------|-----------|
-| **Model download too slow** | Pre-generate summaries on local machine, then upload the ready SQLite DB |
-| **Database empty** | Ensure `news_articles.db` has table `articles` with records |
-| **Port already used** | Run `python app.py --port 5050` or set `$PORT` |
-| **CORS blocked** | `Flask-CORS` already enabled — ensure JS fetches the correct domain |
-
----
-
-## 👥 Team Members
-
-| Name | Role | Responsibility |
-|------|------|----------------|
-| **บอส** | Project Manager / CI-CD | Repository setup · GitHub Actions · Render deployment |
-| **โชกุน** | Automated Tester / QA | Pytest · Mock API · Lint · Code quality |
-| **โฟน** | Core Developer | Flask API · SQLite schema · Hugging Face integration |
+## Troubleshooting
+| Issue | Fix |
+|-------|-----|
+| Long Docker build times | Torch is pinned to a pre-built wheel via `--index-url`; ensure you have network access. |
+| API returns empty list | Confirm `news_articles.db` contains data and `NEWS_DB_PATH` points to it. |
+| Front-end cannot fetch in production | The script now auto-detects origin; ensure CORS is enabled (Flask-CORS already configured). |
+| Database changes lost on Render free tier | Copy the DB to `/tmp` at start or upgrade to persistent disk. |
 
 ---
 
-## 🧩 Evaluation Checklist
-✅ API works (GET/POST + error handling)  
-✅ Data persisted correctly (SQLite)  
-✅ Code follows PEP 8 (Flake8 clean)  
-✅ Tests run successfully (pytest)  
-✅ CI/CD simulated via Render deploy  
-✅ README includes setup + usage guide  
-✅ Team roles documented  
+## License
+Educational use only. Add a formal license (e.g. MIT) if you distribute modified versions.
 
 ---
 
-## 📚 References
-- [NewsData.io API](https://newsdata.io/documentation)  
-- [Hugging Face Transformers](https://huggingface.co/docs)  
-- [Flask Framework](https://flask.palletsprojects.com)  
-- [Pytest Docs](https://docs.pytest.org/)  
-- [Render Deployment Guide](https://render.com/docs)
-
----
-
-## 📄 License
-This project is open for educational use.  
-Add an MIT License if distributing modified versions.
-
----
-> _“Less noise, more insight — stay informed with AI-curated news.”_
+_"Read less, know more."_ 
