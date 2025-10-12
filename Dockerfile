@@ -12,7 +12,8 @@ RUN apt-get update && \
 COPY requirements.txt .
 
 RUN python -m venv /opt/venv && \
-    /opt/venv/bin/pip install --no-cache-dir --upgrade pip && \
+    /opt/venv/bin/pip install --no-cache-dir --upgrade pip setuptools wheel && \
+    /opt/venv/bin/pip install --no-cache-dir torch==2.3.1 --index-url https://download.pytorch.org/whl/cpu && \
     /opt/venv/bin/pip install --no-cache-dir -r requirements.txt
 
 

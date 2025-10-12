@@ -393,8 +393,10 @@
             try {
                 console.log('Fetching data from Python API...');
                 
-                // Flask API Server
-                const API_URL = 'http://127.0.0.1:5000/api/articles'; 
+                // Flask API Server (works both locally and on hosted envs)
+                const API_URL = window.location.protocol === 'http:' || window.location.protocol === 'https:'
+                    ? `${window.location.origin}/api/articles`
+                    : 'http://127.0.0.1:5000/api/articles';
                 
                 // ใช้ API URL ในการดึงข้อมูล
                 const response = await fetch(API_URL); 
