@@ -1,9 +1,57 @@
-.venv
-__pycache__/
-.pytest_cache/
-*.pyc
-*.pyo
-*.pyd
+# Ignore Git files
 .git
 .gitignore
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDE & editor
+.vscode/
+.idea/
+
+# Testing & temporary files
 tests/
+coverage/
+*.pytest_cache/
+.cache/
+
+# Hugging Face model caches
+~/.cache/
+transformers_cache/
+hf_cache/
+
+# Large or local data
+*.sqlite
+*.db
+*.json
+*.csv
+data/
+datasets/
+
+# Node (if using frontend build)
+node_modules/
+npm-debug.log
+
+# Misc
+.env
+*.bak
+*.swp
