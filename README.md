@@ -44,6 +44,8 @@ python -m venv .venv
 # source .venv/bin/activate      # macOS/Linux
 pip install -r requirements.txt
 ```
+### Important requirement
+- DLL for pytorch : https://gist.github.com/opentechnologist/0fa93f92d4c42535bb8cbe539e36c080
 
 ### Run Locally
 ```bash
